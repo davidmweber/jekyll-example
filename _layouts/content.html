@@ -1,0 +1,24 @@
+{% include top.html %}
+
+<body>
+	<div class="site-wrapper">
+
+		{% include header.html %}
+
+		<section class="page-heading">
+			<div class="container">
+				<h1> {{page.title}} </h1>
+			</div>
+		</section>
+
+		<section>
+			<div class="page-content">
+				<div class="container">
+					{{ content }} 
+				</div>
+			</div>
+		</section>
+		{% include footer.html %}
+	</div>
+</body>
+</html>

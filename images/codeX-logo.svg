@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="425.96875"
+   height="204.5"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="codeX-logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.5305555"
+     inkscape:cx="235.58265"
+     inkscape:cy="143.58326"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1427"
+     inkscape:window-height="1028"
+     inkscape:window-x="2105"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     fit-margin-left="5"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.000001,-853.21875)">
+    <path
+       style="fill:#8bc53f;fill-opacity:1;stroke:#8bc53f;stroke-width:0.50992507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 299.13386,916.23201 38.24438,38.24437 -38.24438,38.24438 16.57256,0 38.24438,-38.24438 -38.24438,-38.24437 z"
+       id="path3054"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#8bc53f;fill-opacity:1;stroke:#8bc53f;stroke-width:0.50992507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 435.35623,916.65178 -38.24438,38.24437 38.24438,38.24438 -16.57257,0 -38.24437,-38.24438 38.24437,-38.24437 z"
+       id="path3054-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#8bc53f;fill-opacity:1;stroke:#8bc53f;stroke-width:0.50992507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 433.5979,858.84933 -66.29025,66.29025 -38.24438,-38.24438 0,16.57257 38.24438,38.24437 66.29025,-66.29025 z"
+       id="path3054-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#8bc53f;fill-opacity:1;stroke:#8bc53f;stroke-width:0.50992507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 300.64377,1052.1072 66.29026,-66.29024 38.24438,38.24434 0,-16.5725 -38.24438,-38.2444 -66.29026,66.2902 z"
+       id="path3054-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:111.77879332999999917px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:courier;-inkscape-font-specification:courier;font-stretch:normal;font-variant:normal"
+       x="15.081734"
+       y="979.3374"
+       id="text3004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3006"
+         x="15.081734"
+         y="979.3374"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:FreeMono;-inkscape-font-specification:FreeMono">code</tspan></text>
+  </g>
+</svg>
