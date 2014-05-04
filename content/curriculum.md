@@ -1,9 +1,6 @@
 ---
 layout: content
 title: Curriculum
-prev_section: about
-next_section: team
-pemalink: /content/curriculum/
 ---
 
 
