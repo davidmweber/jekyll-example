@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #229955;
+  color: #7eb436;
   text-decoration: underline;
 }
 /* Logo */
@@ -27,10 +27,12 @@ a:hover {
 }
 header.menu-colored {
   /* Navigation styles - For Desktop */
+
 }
 @media all and (min-width: 992px) {
   header.menu-colored .flexnav > li {
     /* Submenu */
+  
   }
   header.menu-colored .flexnav > li.active > a {
     color: #8bc53f;
@@ -48,6 +50,7 @@ header.menu-colored {
 /* Header v6 */
 header.menu-pills {
   /* Navigation styles - For Desktop */
+
 }
 @media all and (min-width: 992px) {
   header.menu-pills .flexnav > li.active > a {
@@ -145,6 +148,7 @@ header.menu-pills {
 /* Footers Widgets specific styling */
 .widget__footer {
   /* Base Widgets */
+
 }
 .widget__footer.widget_archive ul li:hover,
 .widget__footer.widget_nav_menu ul li:hover,
@@ -157,6 +161,7 @@ header.menu-pills {
 }
 .widget__footer {
   /* Base Widgets */
+
 }
 .widget__footer.widget_archive ul li:hover,
 .widget__footer.widget_nav_menu ul li:hover,
@@ -179,21 +184,21 @@ header.menu-pills {
 // --------------------------------------------------
 */
 .btn-primary {
-  background-image: -webkit-linear-gradient(top, #8bc53f 0%, #229955 100%);
-  background-image: linear-gradient(to bottom, #8bc53f 0%, #229955 100%);
+  background-image: -webkit-linear-gradient(top, #8bc53f 0%, #7eb436 100%);
+  background-image: linear-gradient(to bottom, #8bc53f 0%, #7eb436 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8bc53f', endColorstr='#ff229955', GradientType=0);
-  border-color: #229955;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8bc53f', endColorstr='#ff7eb436', GradientType=0);
+  border-color: #7eb436;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #229955;
-  border-color: #229955;
+  background-color: #7eb436;
+  border-color: #7eb436;
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #229955;
-  border-color: #229955;
+  background-color: #7eb436;
+  border-color: #7eb436;
 }
 /*
 // #Lists
@@ -231,10 +236,16 @@ header.menu-pills {
 // --------------------------------------------------
 */
 .panel-group .panel-title > a {
-  background-image: -webkit-linear-gradient(top, #8bc53f 0%, #229955 100%);
-  background-image: linear-gradient(to bottom, #8bc53f 0%, #229955 100%);
+  background-image: -webkit-linear-gradient(top, #8bc53f 0%, #7eb436 100%);
+  background-image: linear-gradient(to bottom, #8bc53f 0%, #7eb436 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8bc53f', endColorstr='#ff229955', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8bc53f', endColorstr='#ff7eb436', GradientType=0);
+}
+.panel-group__clean .panel-title > a {
+  color: #8bc53f;
+}
+.panel-group__clean .panel-title > a:before {
+  color: #8bc53f;
 }
 /*
 // #Icon Box
@@ -263,10 +274,10 @@ header.menu-pills {
 // --------------------------------------------------
 */
 .progress-bar {
-  background-image: -webkit-linear-gradient(top, #8bc53f 0%, #1e8449 100%);
-  background-image: linear-gradient(to bottom, #8bc53f 0%, #1e8449 100%);
+  background-image: -webkit-linear-gradient(top, #8bc53f 0%, #70a130 100%);
+  background-image: linear-gradient(to bottom, #8bc53f 0%, #70a130 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8bc53f', endColorstr='#ff1e8449', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8bc53f', endColorstr='#ff70a130', GradientType=0);
 }
 .progress-bar-success {
   background-image: -webkit-linear-gradient(top, #71cd75 0%, #4bc050 100%);
@@ -356,6 +367,36 @@ blockquote {
   .featured-item:hover {
     background-color: #8bc53f;
   }
+}
+/*
+// #Shop
+// --------------------------------------------------
+*/
+table.cart-total > tbody > tr > td .amount {
+  color: #8bc53f;
+}
+.price .amount {
+  color: #8bc53f;
+}
+.star-rating span {
+  color: #8bc53f;
+}
+.products .product .onsale {
+  background: #8bc53f;
+}
+/* MediaElements Custom Colors */
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background: #8bc53f;
+}
+/* Layer Slider */
+.ls-icon.ls-icon-lg {
+  color: #8bc53f;
+}
+.ls-caption1 {
+  background: #8bc53f;
+}
+.ls-caption3 {
+  background: #8bc53f;
 }
 .list-unstyled {
   padding-left: 0;

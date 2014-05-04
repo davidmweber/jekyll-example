@@ -1,5 +1,5 @@
 // Define template colors here
-@theme-color1: #27ae60;
+@theme-color1: #8bc53f;
 @theme-color1-darker: darken(@theme-color1, 5%);
 
 
@@ -515,6 +515,19 @@ header.menu-pills {
 		}
 	}
 }
+.panel-group__clean {
+
+	.panel-title {
+
+		> a {
+			color: @theme-color1;
+
+			&:before {
+				color: @theme-color1;
+			}
+		}
+	}
+}
 
 /*
 // #Icon Box
@@ -708,6 +721,68 @@ blockquote {
 			background-color: @theme-color1;
 		}
 	}
+}
+
+
+/*
+// #Shop
+// --------------------------------------------------
+*/
+table.cart-total {
+
+	> tbody {
+
+		> tr {
+
+			> td {
+
+				.amount {
+					color: @theme-color1;
+				}
+			}
+		}
+	}
+}
+.price {
+
+	.amount {
+		color: @theme-color1;
+	}
+}
+.star-rating {
+
+	span {
+		color: @theme-color1;
+	}
+}
+.products {
+
+	.product {
+
+		.onsale {
+			background: @theme-color1;
+		}
+	}
+}
+
+/* MediaElements Custom Colors */
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: @theme-color1;
+} 
+
+/* Layer Slider */
+.ls-icon {
+
+	&.ls-icon-lg {
+		color: @theme-color1;
+	}
+}
+
+.ls-caption1 {
+	background: @theme-color1;
+}
+.ls-caption3 {
+	background: @theme-color1;
 }
 
 @import "../mixins.less";
