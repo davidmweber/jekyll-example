@@ -11,13 +11,6 @@ Partners supply product owners for a project aimed at their business needs; your
 
 The billing model is on a contract basis at R150 per hour per codeX student (who work in teams). Scrum master and in-house educational support are supplied by codeX. We anticipate that there are 15 billable days of 6 hours each in a month available from a codeX student. The resulting products become the property of the project partner.
 
-### Development and education methodologies 
-code X operates on core methodologies and principles which we believe foster great developers and help us build strong relationships with our industry partners:
-
- - Learning is a life-long process, so we teach people to learn for themselves.
- - Agile methodology is the best way to manage uncertainty and rapidly changing circumstances, both in actual programming and education.
- - Test driven development results in reliable systems that support big changes with minimal risks. It enables continuous integration and continuous product deployment.
- - Open source wherever possible. Software today is a give and take. Use it, change it, contribute back to the community.
- - Multiple everything. You need multiple skills. Multiple languages, databases, operating systems and software platforms.
-
+### Development methodologies
+We base our development on strong agile principles. Expect test driven development, sprints, backlogs, product owners and all the other trappings that result in successful product development.
  
