@@ -2,3 +2,4 @@ name: codeX Academy
 description: All about the wonderful academy
 markdown: redcarpet
 pygments: true
+exclude: [README.md]
