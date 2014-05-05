@@ -13,7 +13,13 @@ There is a known issue on OSX when installing the Jekyll gem. If it fails with a
 ``` bash
 ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future sudo gem install jekyll
 ```
-The site can be build using 
+You now need to clone a copy of the sources as hosted on GitHub. The easiest (but not the most secure) way is to achieve this is as follows:
+
+``` bash
+cd your/working/directory/
+git clone https://github.com/davidmweber/codex-site.git
+```
+This will result in a directory called `codex-site`. Change to this directory. The site can now be build using 
 ``` bash
 jekyll build
 ```
@@ -21,7 +27,7 @@ The static site content can be found in the `_site` directory. Alternatively, Je
 ``` bash
 jekyll serve -w
 ```
-. Just point your browser to [http://localhost:4000/](http://localhost:4000/). Refresh as needed.
+Just point your browser to [http://localhost:4000/](http://localhost:4000/). Refresh as needed. Use `git` to commit and push your changes back to GitHub. Note that this process will change to formal pull requests rather than direct commits to the live site when we go live.
 
 
 ## Site setup
