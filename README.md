@@ -5,15 +5,23 @@ The  website is build using the [Jekyll](http://jekyllrb.com/) site generator an
 ## Setup
 You need to have Jekyll](http://jekyllrb.com/) and [Kramdown](http://kramdown.gettalong.org/). Note that Kramdown is used by a plugin that allows MarkDown text to be included directly into HTML documents. You install all your requirements as follows (OSX and Linux):
 
- 1  `sudo gem install jekyll`
- 1  `sudo gem install kramdown`
+ 1.  `sudo gem install jekyll`
+ 1.  `sudo gem install kramdown`
 
 There is a known issue on OSX when installing the Jekyll gem. If it fails with an incomprehensible message, follow the instructions on this [StackOverflow answer](http://stackoverflow.com/questions/22352838/ruby-gem-install-json-fails-on-mavericks-and-xcode-5-1-unknown-argument-mul). The exact command for OSX is:
 
 ``` bash
 ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future sudo gem install jekyll
 ```
-The site can be build using `jekyll build`. The static site content can be found in the `_site` directory. Alternatively, Jekyll can serve the site, rebuilding it dynamically as you save your work by using `jekyll serve -w`. Just point your browser to [http://localhost:4000]. Refresh as needed.
+The site can be build using 
+``` bash
+jekyll build
+```
+The static site content can be found in the `_site` directory. Alternatively, Jekyll can serve the site, rebuilding it dynamically as you save your work by using 
+``` bash
+jekyll serve -w
+```
+. Just point your browser to [http://localhost:4000]. Refresh as needed.
 
 
 ## Site setup
