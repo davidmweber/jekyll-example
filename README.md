@@ -21,7 +21,7 @@ The static site content can be found in the `_site` directory. Alternatively, Je
 ``` bash
 jekyll serve -w
 ```
-. Just point your browser to [http://localhost:4000]. Refresh as needed.
+. Just point your browser to [http://localhost:4000/](http://localhost:4000/). Refresh as needed.
 
 
 ## Site setup
