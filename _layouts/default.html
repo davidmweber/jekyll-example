@@ -3,13 +3,14 @@
 <body>
 	<div class="site-wrapper">
 		{% include header.html %}
-
-		<section class="page-content">
-			<div class="container">
-				{{ content }} 
-			</div>
-		</section>
-
+		<div class="main" role="main">
+			<!--{% include banner.html %}-->
+			<section class="page-content">
+				<div class="container">
+					{{ content }} 
+				</div>
+			</section>
+		</div>
 		{% include footer.html %}
 	</div>
 </body>
