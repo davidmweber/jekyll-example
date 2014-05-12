@@ -1,4 +1,8 @@
 - image: banner1.png
-  caption: Put some caption here
+  caption_head: Big Caption
+  caption_body: Some much longer thing
+  thumb: Our methods
 - image: banner2.png
-  caption: Put some other caption here
+  caption_head: Other Thing
+  caption_body: Longer interesting thing
+  thumb: Faster and faster

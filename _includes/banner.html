@@ -1,28 +1,25 @@
-<div class="tp-banner-holder">
-	<div class="tp-banner-container">
-		<div class="tp-banner" >
-			<ul>
-                {% for p in site.data.banner %}
-				<li data-transition="random" data-slotamount="7" data-masterspeed="1000" data-delay="6000" >
-					<img src="images/{{p.image}}" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"/>
-					<div class="tp-caption finewide_small_white customin customout tp-resizeme"
-									data-x="center" data-hoffset="0"
-									data-y="center" data-voffset="-80"
-									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-									data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-									data-speed="500"
-									data-start="500"
-									data-easing="Power3.easeInOut"
-									data-splitin="chars"
-									data-splitout="chars"
-									data-elementdelay="0.08"
-									data-endelementdelay="0.08"
-									data-endspeed="500"
-									style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">{{p.caption}}
-					</div>
-                </li>
-                {% endfor %}
-             </ul>
-        </div>
-    </div>
+<div class="sliderHolder">
+	<div class="container">
+		<div class="royalSlider rsMinW">
+			{% for p in site.data.banner %}
+			<div class="rsContent">
+				<img class="rsImg" src="/images/{{p.image}}" />
+				<div class="rsOverlay"></div>
+				<div class="bContainer">
+					<span class="rsABlock tp-caption finewide_small_white txtCent" data-move-effect="top">
+						{{p.caption_head}}
+					</span>
+					<span class="rsABlock tp-caption stability_graydivider2px left" data-move-effect="left" data-move-offset="200"
+					data-delay="200">&nbsp;</span>
+					<span class="rsABlock tp-caption stability_graydivider2px right" data-move-effect="right" data-move-offset="200"
+					data-delay="200">&nbsp;</span>
+					<span class="rsABlock tp-caption stability_verysmall_white_mw txtCent" data-move-effect="bottom" data-delay="1200">
+						{{p.caption_body}}
+					</span>				
+				</div>
+				<div class="rsTmb">{{p.thumb}}</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>

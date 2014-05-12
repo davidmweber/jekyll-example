@@ -19,27 +19,30 @@
 
 	<script src="js/custom.js"></script>
 
-	<!-- jQuery REVOLUTION Slider  -->
-	<script src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-	<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
+	<!-- jQuery Royal Slider  -->
+	<script src="/vendor/royalslider/jquery.royalslider.min.js"></script>
 	<script>
-		jQuery(document).ready(function() {
-			jQuery('.tp-banner').revolution({
-				dottedOverlay:"filled",
-				delay:6000,
-				startwidth:1140,
-				startheight:556,
-				hideThumbs:10,
-				fullWidth:"on",
-				forceFullWidth:"off",
-				hideCaptionAtLimit:480,
-				//navigationType: "none",
-				soloArrowLeftHOffset:20,
-				soloArrowRightHOffset:20,
-				navigationType:"bullet",
-				navigationArrows:"solo", // nexttobullets, solo (old name verticalcentered), none
-				navigationStyle:"round"  // round, square, navbar, round-old, square-old, navbar-old 
+		jQuery(document).ready(function($) {
+			$(".royalSlider").royalSlider({
+				imageAlignCenter: true,
+				imageScalePadding: 0,
+				imageScaleMode: "fill",
+				globalCaption:true,
+				controlNavigation: 'none',
+				slidesSpacing: 0,
+				keyboardNavEnabled: true,
+
+				thumbs: {
+					firstMargin: false,
+					paddingBottom: 4,
+					spacing: 0,
+				},
+
+				autoPlay: {
+					enabled: true,
+					pauseOnHover: true,
+					delay: 6000
+				}
 			});
-	   });
+		});
 	</script>
