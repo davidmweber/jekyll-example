@@ -13,6 +13,9 @@ There is a known issue on OSX when installing the Jekyll gem. If it fails with a
 ``` bash
 ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future sudo gem install jekyll
 ```
+
+It is also possible that `gem` fails on OSX when installing nokogiri. Just ignore it as the [fix](http://nokogiri.org/tutorials/installing_nokogiri.html) is relatively complicated and it is not required to build the site.
+
 You now need to clone a copy of the sources as hosted on GitHub. The easiest (but not the most secure) way is to achieve this is as follows:
 
 ``` bash
