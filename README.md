@@ -3,7 +3,7 @@
 The  website is build using the [Jekyll](http://jekyllrb.com/) site generator and the [stability](http://themeforest.net/item/stability-responsive-html5css3-template/7222255) HTML template. Note that we have purchased a regular license for codeX. This approach allows fast and flexible changes to be made to the site by templating key aspects such as navigation, layouts and the like.
 
 ## Setup
-You need to have Jekyll](http://jekyllrb.com/) and [Kramdown](http://kramdown.gettalong.org/). Note that Kramdown is used by a plugin that allows MarkDown text to be included directly into HTML documents. You install all your requirements as follows (OSX and Linux):
+You need to have [Jekyll](http://jekyllrb.com/) and [Kramdown](http://kramdown.gettalong.org/). Note that Kramdown is used by a plugin that allows MarkDown text to be included directly into HTML documents. You install all your requirements as follows (OSX and Linux):
 
  1.  `sudo gem install jekyll`
  1.  `sudo gem install kramdown`
@@ -31,10 +31,10 @@ Just point your browser to [http://localhost:4000/](http://localhost:4000/). Ref
 
 
 ## Site setup
-The site is carefully organised to keep major look and feel components separate from content wherever possible. These components include the headers, footers, navigation, layout and content pages. The key pages are in the `_layout` directory. Actual content can be written in HTML or MarkDown or a mix of MarkDown and HTML.
+The site is carefully organised to keep major look and feel components separate from content wherever possible. These components include the headers, footers, navigation, layout and content pages. The key formatting pages are in the `_layout` directory and augmented by stuff in the `_includes` directory. Actual content is in the `content` directory can be written in HTML or MarkDown or a mix of HTML with included MarkDown.
 
 ## Deployment
-There are several ways to deploy the site. GitHub allows us to host for free (using [GitHub pages](https://pages.github.com/)) and provides auptomatic updates on commit. For now, this has been disabled. One can also simply deploy the contents of the `_site` directory to a service of your choice.
+There are several ways to deploy the site. GitHub allows us to host for free (using [GitHub pages](https://pages.github.com/)) and provides automatic updates on commit. For now, this has been disabled. One can also simply deploy the contents of the `_site` directory to a service of your choice.
 
 
 
