@@ -18,3 +18,28 @@
 	<script src="vendor/mediaelement/mediaelement-and-player.min.js"></script>
 
 	<script src="js/custom.js"></script>
+
+	<!-- jQuery REVOLUTION Slider  -->
+	<script src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+	<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('.tp-banner').revolution({
+				dottedOverlay:"filled",
+				delay:6000,
+				startwidth:1140,
+				startheight:556,
+				hideThumbs:10,
+				fullWidth:"on",
+				forceFullWidth:"off",
+				hideCaptionAtLimit:480,
+				//navigationType: "none",
+				soloArrowLeftHOffset:20,
+				soloArrowRightHOffset:20,
+				navigationType:"bullet",
+				navigationArrows:"solo", // nexttobullets, solo (old name verticalcentered), none
+				navigationStyle:"round"  // round, square, navbar, round-old, square-old, navbar-old 
+			});
+	   });
+	</script>
