@@ -11,7 +11,7 @@ You need to have [Jekyll](http://jekyllrb.com/) and [Kramdown](http://kramdown.g
 There is a known issue on OSX when installing the Jekyll gem. If it fails with an incomprehensible message, follow the instructions on this [StackOverflow answer](http://stackoverflow.com/questions/22352838/ruby-gem-install-json-fails-on-mavericks-and-xcode-5-1-unknown-argument-mul). The exact command for OSX is:
 
 ``` bash
-ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future sudo gem install jekyll
+sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install jekyll
 ```
 
 It is also possible that `gem` fails on OSX when installing nokogiri. Just ignore it as the [fix](http://nokogiri.org/tutorials/installing_nokogiri.html) is relatively complicated and it is not required to build the site.

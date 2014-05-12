@@ -1,9 +1,27 @@
-- partner: Ogilvie
+- partner: Ogilvy
   image: ogilvie.jpg
   url: http://www.ogilvy.co.za/
 - partner: Growing Agile
   image: growing-agile.jpg
   url: http://growingagile.co.za/
+- partner: fireID
+  image: fireId.png
+  url: http://www.fireid.com/
+- partner: We Speak Mobile
+  image: speak-mobile-logo.png
+  url: http://www.wespeakmobile.co.za/
+- partner: fireID
+  image: fireId.png
+  url: http://www.fireid.com/
+- partner: We Speak Mobile
+  image: speak-mobile-logo.png
+  url: http://www.wespeakmobile.co.za/
+- partner: fireID
+  image: fireId.png
+  url: http://www.fireid.com/
+- partner: We Speak Mobile
+  image: speak-mobile-logo.png
+  url: http://www.wespeakmobile.co.za/
 - partner: fireID
   image: fireId.png
   url: http://www.fireid.com/
