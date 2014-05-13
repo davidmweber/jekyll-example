@@ -3,14 +3,21 @@
 </button>
 
 <nav class="nav-main">
-	<ul data-breakpoint="992" class="flexnav" >
+	<ul data-breakpoint="300" class="flexnav" >
 		{% for section in site.data.navigation %}
-		{% assign sec_url = section | prepend:"/content/" | append:".html" %}
-		{% if sec_url == page.url %}
-		<li class="active"><a href="{{sec_url}}">{{section}}</a></li>
-		{% else %}
-		<li><a href="{{sec_url}}">{{section}}</a></li>
-		{% endif %}
+			{% assign sec_url = section.source | prepend:"/content/" | append:".html" %}
+			{% if sec_url == page.url %}
+				<li class="active"><a href="{{sec_url}}">{{section.title}}</a>
+				{% else %}
+				<li><a href="{{sec_url}}">{{section.title}}</a>
+			{% endif %}
+			<ul>
+			{% for sub in section.sub %}
+				{% assign sub_url = sub.source | prepend:"/content/" | append:".html" %}
+				<li><a href="{{sub_url}}">{{sub.title}}</a></li>
+			{% endfor %}
+			</ul>
+			</li>
 		{% endfor %}
 	</ul>
 </nav>
