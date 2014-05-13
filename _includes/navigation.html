@@ -11,12 +11,14 @@
 				{% else %}
 				<li><a href="{{sec_url}}">{{section.title}}</a>
 			{% endif %}
-			<ul>
-			{% for sub in section.sub %}
-				{% assign sub_url = sub.source | prepend:"/content/" | append:".html" %}
-				<li><a href="{{sub_url}}">{{sub.title}}</a></li>
-			{% endfor %}
-			</ul>
+			{% if section.sub %}
+				<ul>
+				{% for submenu in section.sub %}
+					{% assign submenu_url = submenu.source | prepend:"/content/" | append:".html" %}
+					<li><a href="{{submenu_url}}">{{submenu.title}}</a></li>
+				{% endfor %}
+				</ul>
+			{% endif %}
 			</li>
 		{% endfor %}
 	</ul>
