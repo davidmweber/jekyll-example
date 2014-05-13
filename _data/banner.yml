@@ -1,9 +1,19 @@
 - image: banner1.png
-  caption_head: Big Caption
-  caption_body: Some much longer thing
-- image: banner2.png
-  caption_head: Other Thing
+  caption_head: Can you solve for X?
   caption_body: |
-    Longer interesting thing with plenty of text
-    at the end of the moon with four frogs plus
-    dogs
+   Developers are in high demand and short supply. 
+   We train talented young brains to get these high paying jobs, 
+   and build Africa's digital future
+- image: banner2.png
+  caption_head: Program or be programmed
+  caption_body: |
+   Do you love Facebook, Twitter, whatsapp, games? Don't just use them. Build them
+- image: banner1.png
+  caption_head: Pay for the education. Get paid for the work.
+  caption_body: |
+   As you gain experience and skills, companies may pay for the projects you build
+- image: banner2.png
+  caption_head: Learn to be a developer -- by working as a developer
+  caption_body: |
+   Build a portfolio of real projects for real companies, 
+   tagged with the skills you've gained and linked to the code you've written
