@@ -4,23 +4,9 @@ title: Partners
 ---
 
 <section class="page-contents">
-
-	<div class="tabs">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#tab-1" data-toggle="tab">Sponsor seats</a></li>
-			<li><a href="#tab-2" data-toggle="tab"> Projects</a></li>
-		</ul>
-		<!-- Tab panes -->
-		<div class="tab-content">
-			<div class="tab-pane fade in active" id="tab-1">
-				<p>The cheapest way to groom and hire talent. Sponsor a codeX apprentice at R25,000 per 3 month stints...get first crack at hiring them after you've worked with them on a project, instead of committing to a contract without knowing what they can do</p>
-			</div>
-			<div class="tab-pane fade in" id="tab-2">
-				<p>Being a developer isn’t just about building technology; it’s about how you build technology. codeX follows agile philosophy and methodology. You’ll learn test-driven development and extreme programming, and have scrums every day. Don’t worry about the terms now. The point is to help you succeed in an environment where you know very little, which is how the real world works anyway.</p>
-			</div>
-		</div>
-	</div>
+	{% include tab_macro.html tabs=site.data.partner_tabs %}
 	<br><br>
+	<!-- Partner logos and links -->
 	<div class="container">
 		{% assign counter = 0 %}
 		<ul class="team-list row">
@@ -40,6 +26,4 @@ title: Partners
 			{% endfor %}
 		</ul>
 	</div>
-
-
 </section>
