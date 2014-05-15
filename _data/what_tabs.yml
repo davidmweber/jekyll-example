@@ -9,14 +9,23 @@
 - label: Agile is the way
   content: |
     <p>Being a developer isn’t just about building technology; it’s about how you build 
-    technology. codeX follows agile philosophy and methodology. You’ll learn test-driven 
-    development and extreme programming, and have scrums every day. Don’t worry about the 
-    terms now. The point is to help you succeed in an environment where you know very little, 
-    which is how the real world works anyway.</p>
+    technology. codeX follows agile philosophy and methodology. You’ll learn 
+    <a href="http://en.wikipedia.org/wiki/Test-driven_development">test-driven 
+    development</a> and <a href="http://www.extremeprogramming.org/">extreme programming</a>, 
+    and have <a href="http://en.wikipedia.org/wiki/Scrum_(software_development)">scrums</a>
+    every day. Don’t worry about the terms now. The point is to help you succeed in an 
+    environment where you know very little, which is how the real world works anyway.</p>
 - label: "What codeX isn’t: school"
   content: |
-    <p>codeX is a full-time apprenticeship: 9 to 5, every weekday. You'll build real projects for real companies. You might even get paid for them as you grow your skills. codeX guides 
-    you and gives you a safe space to experiment and grow.</p> 
+    <p>codeX is a full-time apprenticeship: 9 to 5, every weekday. You'll build real 
+    projects for real companies. You might even get paid for them as you grow your skills. 
+    codeX guides you and gives you a safe space to experiment and grow.</p> 
+    <p>There are no formal classes and no prescribed languages, though you’ll 
+    learn several and plenty of hard coding skills. You’ll learn by working through 
+    big questions and breaking them down into solvable problems with your team and us.</p> 
+    <p>codeX complements the learn by doing approach with daily coding exercises (katas) 
+    and talks with industry professionals and mentors so you gain context for your programming 
+    knowledge in computer science and in business.</p>
     <p>But we only invest in people who invest in themselves.</p>
     <p>You need to show up every day on time, work well with your team members, and be focused 
     on delivering what the client wants. There are no grades and no tests, but you’ll be 
