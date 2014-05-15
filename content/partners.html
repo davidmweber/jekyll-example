@@ -4,21 +4,25 @@ title: Partners
 ---
 
 <section class="page-contents">
-	{% include tab_macro.html tabs=site.data.partner_tabs %}
-	<br><br>
 	<!-- Partner logos and links -->
 	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{% include tab_macro.html tabs=site.data.partner_tabs %}
+			</div>
+		</div>
+		<br><br>
 		{% assign counter = 0 %}
 		<ul class="team-list row">
 			{% for p in site.data.partners %}
-				<li class="team-item col-md-2">
+				<li class="team-item col-md-3">
 					<figure class="alignnone">
 						<a href="{{p.url}}" target="_blank"><img src="/images/{{p.image}}"></a>
 					</figure>
 				</li>
 				{% capture temp %}{{ counter | plus: 1 }}{% endcapture %}
 				{% assign counter = temp %}
-				{% if counter == '5' %}
+				{% if counter == '4' %}
   					</ul>
   					<ul class="team-list row">
   					{% assign counter = 0 %}

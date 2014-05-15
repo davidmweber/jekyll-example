@@ -1,30 +1,26 @@
 {% assign tabs = include.tabs %}
-<div class="container">
-    <div class="row>">
-    	<div class="tabs">
-	        <ul class="nav nav-tabs">
-				{% for tab in tabs %}
-					{% assign tab_name = "#tab-" | append:forloop.index %}
-					{% if forloop.index == 1 %}
-		        		<li class="active"><a href="{{tab_name}}" data-toggle="tab">{{tab.label}}</a></li>
-					{% else %}
-		       			<li><a href="{{tab_name}}" data-toggle="tab">{{tab.label}}</a></li>
-		       		{% endif %}
-				{% endfor %}
-	        </ul>
-	        <div class="tab-content">
-				{% for tab in tabs %}
-					{% assign tab_name = "tab-" | append:forloop.index %}
-						{% if forloop.index == 1 %}
-							<div class="tab-pane fade in active" id="{{tab_name}}">
-						{% else %}
-							<div class="tab-pane fade in" id="{{tab_name}}">
-		        		{% endif %}
-		        		{{tab.content}}
-		        		</div>
-				{% endfor %}
-			</div>
-
-		</div>
-	</div>
+<div class="tabs">
+<ul class="nav nav-tabs">
+	{% for tab in tabs %}
+		{% assign tab_name = "#tab-" | append:forloop.index %}
+		{% if forloop.index == 1 %}
+    		<li class="active"><a href="{{tab_name}}" data-toggle="tab">{{tab.label}}</a></li>
+		{% else %}
+   			<li><a href="{{tab_name}}" data-toggle="tab">{{tab.label}}</a></li>
+   		{% endif %}
+	{% endfor %}
+</ul>
+<div class="tab-content">
+	{% for tab in tabs %}
+		{% assign tab_name = "tab-" | append:forloop.index %}
+			{% if forloop.index == 1 %}
+				<div class="tab-pane fade in active" id="{{tab_name}}">
+			{% else %}
+				<div class="tab-pane fade in" id="{{tab_name}}">
+    		{% endif %}
+    		{{tab.content}}
+    		</div>
+	{% endfor %}
 </div>
+</div>
+
