@@ -34,7 +34,15 @@ Just point your browser to [http://localhost:4000/](http://localhost:4000/). Ref
 
 
 ## Site setup
-The site is carefully organised to keep major look and feel components separate from content wherever possible. These components include the headers, footers, navigation, layout and content pages. The key formatting pages are in the `_layout` directory and augmented by stuff in the `_includes` directory. Actual content is in the `content` directory can be written in HTML or MarkDown or a mix of HTML with included MarkDown.
+The site is carefully organised to keep major look and feel components separate from content wherever possible. These components include the headers, footers, navigation, layout and content pages. We use liquid to automate as much of the markup as possible.
+
+1. The key formatting for pages are in the `_layout` directory and augmented by stuff in the `_includes` directory. 
+1. Actual content is in the `content` directory can be written in HTML or MarkDown or a mix of HTML with included MarkDown.
+1. Navigation is layed out in `_data/navigation.yml` and rendered by `_includes/navigation.html`. The YML is pretty 
+obvious with the `source` pointing to a file in the `content/` directory and the `title` variable is the label on the navigation bar. Sub menu's are supported but not sub sub menus.
+1. Tabbed layouts are rendered from YML formatted files. For example, `_data/what_tabs.yml` is the text for the "What is codeX" page. It is rendered using `include/tab_macro.html'
+1. The partner list is also maintained as a YML file in `_data/partners.html`
+1. For now, forms are simply Google App forms in an iframe. The styling is not great, but the ease of use is a big win.
 
 ## Deployment
 There are several ways to deploy the site. GitHub allows us to host for free (using [GitHub pages](https://pages.github.com/)) and provides automatic updates on commit. For now, this has been disabled. One can also simply deploy the contents of the `_site` directory to a service of your choice.
