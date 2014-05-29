@@ -8,7 +8,7 @@
 			{% assign sec_url = section.source | prepend:"/content/" | append:".html" %}
 			{% if sec_url == page.url %}
 				<li class="active"><a href="{{sec_url}}">{{section.title}}</a>
-				{% else %}
+			{% else %}
 				<li><a href="{{sec_url}}">{{section.title}}</a>
 			{% endif %}
 			{% if section.sub %}
