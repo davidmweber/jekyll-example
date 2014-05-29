@@ -2,97 +2,35 @@
 layout: content
 title: Team
 ---
-
+<!-- This is in need of a layout overhaul -->
 <ul class="team-list row">
+{% for t in site.data.team %}
 	<li class="col-md-2"> </li>
 	<li class="col-md-3">
 		<figure class="alignnone">
-			<a href="#"><img src="/images/eg.jpg"></a>
+			<a href="#"><img src="/images/{{t.image}}"></a>
 		</figure>
 		<header class="team-head">
-			<h4 class="team-name">Elizabeth Gould</h4>
+			<h4 class="team-name">{{t.name}}</h4>
 			<ul class="team-social list-unstyled">
 				<li>
-					<i class="fa fa-envelope-o"></i><a href="mailto:elizabeth@codex-academy.com">elizabeth@codex-academy.com</a>
+					<i class="fa fa-envelope-o"></i><a href="mailto:{{t.email}}">{{t.email}}</a>
 				</li>
 				<li>
-					<i class="fa fa-twitter"></i><a href="https://twitter.com/Lsabeth3">@Lsabeth3</a>
+					<i class="fa fa-twitter"></i><a href="https://twitter.com/{{t.twitter}}">{{t.twitter}}</a>
 				</li>
-
+				{% if t.linkedin %}
 				<li>
-					<i class="fa fa-linkedin-square"></i> <a href="www.linkedin.com/pub/elizabeth-gould/4/884/576">Elizabeth Gould</a>
+					<i class="fa fa-linkedin-square"></i> <a href="{{t.linkedin}}">{{t.name}}</a>
 				</li>
+				{% endif %}
 			</ul>
 		</header>
 		<div>
-			Elizabeth gets to be obsessed with her twin passions, technology and Africa, on TV. As host of Bloomberg TV Africa’s The Shift, she travels around the continent telling the stories of the innovators, investors, and companies building Africa’s digital future. 
+			{{t.bio}}
 		</div>
 	</li>
-	<li class="col-md-3">
-		<figure class="alignnone">
-			<a href="#"><img src="/images/Cara Turner.jpg"></a>
-		</figure>
-		<header class="team-head">
-			<h4 class="team-name">Cara Turner</h4>
-			<ul class="team-social list-unstyled">
-				<li>
-					<i class="fa fa-envelope-o"></i><a href="mailto:elizabeth@codex-academy.com">cara@codex-academy.com</a>
-				</li>
-				<li>
-					<i class="fa fa-twitter"></i><a href="https://twitter.com/Cara_Faye">@Cara_Faye</a>
-				</li>
-			</ul>
-		</header>
-		<div>
-			Cara is a creative and highly motivated agilist, with a drive for growing talented teams.  Conference speaker, SUGSA chairperson, coach, artist \amp; beginner surfer - breakthrough change is what gets her going every day. Caffeine and laughter fill in the rough edges. 
-		</div>
-	</li>
-</ul>
-<ul class="team-list row">
-	<li class="col-md-2"> </li>
-	<li class="col-md-3">
-		<figure class="alignnone">
-			<a href="#"><img src="/images/dw.jpg"></a>
-		</figure>
-		<header class="team-head">
-			<h4 class="team-name">David Weber</h4>
-			<ul class="team-social list-unstyled">
-				<li>
-					<i class="fa fa-envelope-o"></i><a href="mailto:dave@codex-academy.com">dave@codex-academy.com</a>
-				</li>
-				<li>
-					<i class="fa fa-twitter"></i><a href="https://twitter.com/veryflatcat">@veryflatcat</a>
-				</li>
-
-				<li>
-					<i class="fa fa-linkedin-square"></i> <a href="www.linkedin.com/pub/davidmweber">David Weber</a>
-				</li>
-			</ul>
-		</header>
-
-		<div>
-			Dave has done quite a bit. Founder, CEO, CTO, Professor, Academic, Engineer and Computer Scientist. His expertise extends into the arcane depths of his academic background (telecommunications and digital signal processing) to some hard core engineering and software development.
-		</div>
-	</li>
-	<li class="col-md-3">
-		<figure class="alignnone">
-			<a href="#"><img src="/images/mj.png"></a>
-		</figure>
-		<header class="team-head">
-			<h4 class="team-name">Michael Jordaan</h4>
-			<ul class="team-social list-unstyled">
-				<li>
-					<i class="fa fa-envelope-o"></i><a href="mailto:michael@codex-academy.com">michael@codex-academy.com</a>
-				</li>
-				<li>
-					<i class="fa fa-twitter"></i><a href="https://twitter.com/michaeljordaan">@michaeljordaan</a>
-				</li>
-			</ul>
-		</header>
-		<div>
-			Michael traded in his corporate stripes for more casual attire when he stepped down as CEO of First National Bank in August 2013, one of SA’s largest banks with a customer base of nearly nine million.
-		</div>
-	</li>
+{% endfor %}
 </ul>
 
 

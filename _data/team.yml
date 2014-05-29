@@ -1,0 +1,45 @@
+- name: Elizabeth Gould
+  position: CEO
+  image: eg.jpg
+  email: elizabeth@codex-academy.com
+  linkedin: http://www.linkedin.com/pub/elizabeth-gould/4/884/576
+  twitter: Lsabeth3
+  bio: | 
+    Elizabeth gets to be obsessed with her twin passions, technology and Africa,
+    on TV. As host of Bloomberg TV Africa’s The Shift, she travels around the 
+    continent telling the stories of the innovators, investors, and companies 
+    building Africa’s digital future.
+
+- name: David Weber
+  position: CTO
+  image: dw.jpg
+  email: dave@codex-academy.com
+  linkedin: http://www.linkedin.com/in/davidmweber
+  twitter: veryflatcat
+  bio: | 
+    Dave has done quite a bit. Founder, CEO, CTO, Professor, Academic, Engineer 
+    and Computer Scientist. His expertise extends into the arcane depths of his 
+    academic background (telecommunications and digital signal processing) to some 
+    hard core engineering and software development.
+
+- name: Cara Turner
+  position: COO
+  image: Cara Turner.jpg
+  email: cara@codex-academy.com
+  linkedin: http://za.linkedin.com/in/carafaye
+  twitter: Cara_Faye
+  bio: | 
+    Cara is a creative and highly motivated agilist, with a drive for growing talented 
+    teams.  Conference speaker, SUGSA chairperson, coach, artist \amp; beginner surfer 
+    - breakthrough change is what gets her going every day. Caffeine and laughter 
+    fill in the rough edges. 
+
+- name: Michael Jordaan
+  position: Director
+  image: mj.png
+  email: michael@codex-academy.com
+  twitter: michaeljordaan
+  bio: | 
+    Michael traded in his corporate stripes for more casual attire when he stepped 
+    down as CEO of First National Bank in August 2013, one of SA’s largest banks 
+    with a customer base of nearly nine million.
