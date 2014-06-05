@@ -1,1 +1,68 @@
 /* Add your CSS here */
+.team-head
+{
+    min-height:80px;
+}
+
+.team-list > li 
+{
+    height:520px;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:5px;
+    transition:background ease-in .3s;
+    margin-bottom:10px;
+}
+
+.team-list > li img
+{
+    border-radius:50%;
+    border:none;
+    padding:0
+}
+
+.team-list > li:hover
+{
+   background:#f9f9f9;
+}
+
+@media only screen and (max-width : 1200px) {
+
+    .team-list > li 
+    {
+    height:560px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .team-list > li 
+    {
+    height:540px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .team-list > li 
+    {
+    height:auto;
+    }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .team-head
+    {
+        min-height: 0;
+    }
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

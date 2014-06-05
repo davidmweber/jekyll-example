@@ -3,34 +3,34 @@ layout: content
 title: Team
 ---
 <!-- This is in need of a layout overhaul -->
-<ul class="team-list row">
-{% for t in site.data.team %}
-	<li class="col-md-2"> </li>
-	<li class="col-md-3">
-		<figure class="alignnone">
-			<a href="#"><img src="/images/{{t.image}}"></a>
-		</figure>
-		<header class="team-head">
-			<h4 class="team-name">{{t.name}}</h4>
-			<ul class="team-social list-unstyled">
-				<li>
-					<i class="fa fa-envelope-o"></i><a href="mailto:{{t.email}}">{{t.email}}</a>
-				</li>
-				<li>
-					<i class="fa fa-twitter"></i><a href="https://twitter.com/{{t.twitter}}">{{t.twitter}}</a>
-				</li>
-				{% if t.linkedin %}
-				<li>
-					<i class="fa fa-linkedin-square"></i> <a href="{{t.linkedin}}">{{t.name}}</a>
-				</li>
-				{% endif %}
-			</ul>
-		</header>
-		<div>
-			{{t.bio}}
-		</div>
-	</li>
-{% endfor %}
-</ul>
-
+<div class="container">
+	<ul class="team-list row">
+	{% for t in site.data.team %}
+		<li class="col-md-3 col-sm-4">
+			<figure class="alignnone">
+				<a href="#"><img src="/images/{{t.image}}"></a>
+			</figure>
+			<header class="team-head">
+				<h4 class="team-name">{{t.name}}</h4>
+				<ul class="team-social list-unstyled">
+					<!-- li>
+						<i class="fa fa-envelope-o"></i><a href="mailto:{{t.email}}">{{t.email}}</a>
+					</li -->
+					<li>
+						<i class="fa fa-twitter"></i><a href="https://twitter.com/{{t.twitter}}">{{t.twitter}}</a>
+					</li>
+					{% if t.linkedin %}
+					<li>
+						<i class="fa fa-linkedin-square"></i> <a href="{{t.linkedin}}">{{t.name}}</a>
+					</li>
+					{% endif %}
+				</ul>
+			</header>
+			<div>
+				{{t.bio}}
+			</div>
+		</li>
+	{% endfor %}
+	</ul>
+</div>
 
