@@ -1,0 +1,18 @@
+- header: Can you solve for X?
+  body: | 
+        Developers are in high demand and short supply. 
+        We train talented young brains to get these high paying jobs, and build Africa's digital future
+  image: images/banner1.png
+  link: content/apply.html
+
+- header: Program or be programmed
+  body: | 
+        Do you love Facebook, Twitter, whatsapp, games? Don't just use them. Build them
+  image: images/banner2.png
+  link: content/apply.html
+
+- header: Pay for the education. Get paid for the work.
+  body: | 
+        As you gain experience and skills, companies may pay for the projects you build
+  image: images/banner3.png
+  link: content/apply.html

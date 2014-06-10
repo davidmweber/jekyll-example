@@ -1,25 +1,19 @@
-<div class="sliderHolder">
-	<div class="container">
-		<div class="royalSlider rsMinW">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
 			{% for p in site.data.banner %}
-			<div class="rsContent">
-				<img class="rsImg" src="/images/{{p.image}}" />
-				<div class="rsOverlay"></div>
-				<div class="bContainer">
-					<div class="rsABlock tp-caption finewide_small_white txtCent" data-move-effect="top">
-						{{p.caption_head}}
-					</div> <!--
-					<div class="rsABlock tp-caption stability_graydivider2px left" data-move-effect="left" data-move-offset="200"
-					data-delay="200">&nbsp;</div>
-					<div class="rsABlock tp-caption stability_graydivider2px right" data-move-effect="right" data-move-offset="200"
-					data-delay="200">&nbsp;</div>-->
-					<div class="rsABlock tp-caption stability_verysmall_white_mw txtCent" data-move-effect="bottom" data-delay="1200">
-						<br>{{p.caption_body}}
-					</div>				
-				</div>
+			 <div class="swiper-slide">
+				<div class="slide-image" style="background-image:url(images/{{p.image}}); background-repeat:no-repeat; background-position:center top; background-size:cover;" />
+					<div class="container">
+						<div class="caption">
+							<h3>{{p.caption_head}}</h3>
+							<p>{{p.caption_body}}</p>
+							<a href="{{p.link}}"><button class="btn">Apply now <i class="fa fa-angle-right"></i> </button></a>
+						</div>				
+					</div>
 				<!--<div class="rsTmb">{{p.thumb}}</div> -->
+				</div>
 			</div>
 			{% endfor %}
 		</div>
+		<div class="pagination"></div>
 	</div>
-</div>

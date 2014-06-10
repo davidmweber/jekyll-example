@@ -4,10 +4,12 @@
    Developers are in high demand and short supply. 
    We train talented young brains to get these high paying jobs, 
    and build Africa's digital future
+  link: content/apply.html
 - image: banner2.png
   caption_head: Program or be programmed
   caption_body: |
    Do you love Facebook, Twitter, whatsapp, games? Don't just use them. Build them
+  link: content/apply.html
 - image: banner1.png
   caption_head: Pay for the education. Get paid for the work.
   caption_body: |
@@ -17,3 +19,4 @@
   caption_body: |
    Build a portfolio of real projects for real companies, 
    tagged with the skills you've gained and linked to the code you've written
+  link: content/apply.html

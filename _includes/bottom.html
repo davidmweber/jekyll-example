@@ -20,29 +20,13 @@
 	<script src="/js/custom.js"></script>
 
 	<!-- jQuery Royal Slider  -->
-	<script src="/vendor/royalslider/jquery.royalslider.min.js"></script>
+	<script src="/vendor/swiper/swiper.min.js"></script>
 	<script>
-		jQuery(document).ready(function($) {
-			$(".royalSlider").royalSlider({
-				imageAlignCenter: true,
-				imageScalePadding: 0,
-				imageScaleMode: "fill",
-				globalCaption:true,
-				controlNavigation: 'none',
-				slidesSpacing: 0,
-				keyboardNavEnabled: true,
-
-				thumbs: {
-					firstMargin: false,
-					paddingBottom: 4,
-					spacing: 0,
-				},
-
-				autoPlay: {
-					enabled: true,
-					pauseOnHover: true,
-					delay: 6000
-				}
-			});
-		});
-	</script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    paginationClickable: true,
+    autoplay:8000,
+    loop:true,
+    speed:500
+  })
+  </script>
