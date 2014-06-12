@@ -1,5 +1,7 @@
 /* Add your CSS here */
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+
 html
 {
 	position:relative;
@@ -11,6 +13,27 @@ body
 	margin-bottom:60px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0 0 1em 0;
+  color: #2f2f2f;
+  text-transform: uppercase;
+}
+
+
 .header-main:before, .header-main, .page-heading:before, .page-heading:after
 {
 	background:#fff;
@@ -18,7 +41,9 @@ body
 
 .flexnav > li > a
 {
-	color:#000;  
+	color:#000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
 }
 
 .flexnav-show > li > a
@@ -133,27 +158,29 @@ body.home
 	position:absolute;
 	bottom:20%;
 	color:#fff;
-	width:350px;
+	width:370px;
 	max-width:100%;
-	text-shadow:0 0 6px rgba(0,0,0,.6)
+	text-shadow:0 0 6px rgba(0,0,0,.6);
+	border:solid 1px red;
 }
 
 
 .caption h3
 {
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:30px;
 	color:#fff;
 	margin-bottom:20px;
+	font-weight:700;
+	text-transform:none;
 }
 
 .caption p
 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:20px;
 	color:#fff;
-	font-weight:300;
+	font-weight:200;
 	line-height:26px;
 }
 
@@ -162,7 +189,7 @@ body.home
 {
 	background:#8bc53f;
 	color:#fff;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	font-size:16px;
 }
