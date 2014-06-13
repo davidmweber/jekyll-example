@@ -12,19 +12,19 @@ title: Team
 			</figure>
 			<header class="team-head">
 				<h4 class="team-name">{{t.name}}</h4>
-				<ul class="team-social list-unstyled">
-					<!-- li>
+				<!-- ul class="team-social list-unstyled" -->
+					<!-- li >
 						<i class="fa fa-envelope-o"></i><a href="mailto:{{t.email}}">{{t.email}}</a>
-					</li -->
-					<li>
-						<i class="fa fa-twitter"></i><a href="https://twitter.com/{{t.twitter}}">{{t.twitter}}</a>
-					</li>
+					< li -->
+					<!-- li -->
+						<a href="https://twitter.com/{{t.twitter}}"><i class="fa fa-twitter"></i></a>
+					<!-- li -->
 					{% if t.linkedin %}
-					<li>
-						<i class="fa fa-linkedin-square"></i> <a href="{{t.linkedin}}">{{t.name}}</a>
-					</li>
+					<!-- li -->
+						<a href="{{t.linkedin}}"><i class="fa fa-linkedin-square"></i></a>
+					<!-- li -->
 					{% endif %}
-				</ul>
+				<!-- /ul -->
 			</header>
 			<div>
 				{{t.bio}}
