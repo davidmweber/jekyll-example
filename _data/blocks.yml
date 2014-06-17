@@ -1,0 +1,53 @@
+- header: Who?
+  id: '1'
+  icon: user
+  content: | 
+    Elizabeth gets to be obsessed with her twin passions, technology and Africa,
+    on TV. As host of Bloomberg TV Africa’s The Shift, she travels around the 
+    continent telling the stories of the innovators, investors, and companies 
+    building Africa’s digital future.
+
+- header: What?
+  id: '2'
+  icon: question
+  content: | 
+    <b>GROWING AFRICAN DEVELOPERS.</b><br>
+    Programmers are in high demand and critically short supply. We train talented young brains to get these high paying jobs, and build Africa's digital future.<p>
+    We believe technical skills can be learned, but self-motivated thinkers are born. If you believe you’ll always be learning and will stop at nothing to solve the problem at hand, we want you.<p>
+
+    <b>AGILE IS THE WAY</b> Being a developer isn’t just about knowing certain computer languages; it’s about learning how to figure out what works and moving the ball forward. In codeX, you’ll learn agile philosophy and methods like test-driven development, extreme programming, and daily scrums.<p>
+
+    Don’t worry about the terms now. The point is we arm you with the tools to succeed in an environment where you know very little, which is how the real world works.<p>
+
+    <b>WHAT WE’RE NOT -  SCHOOL.</b> codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills. codeX guides you and gives you a safe space to experiment and grow.<p>
+    There are no formal classes and no prescribed languages, though you’ll learn several and plenty of hard coding skills. You’ll learn by working through big questions and breaking them down into solvable problems with your team and us.<p>
+    codeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and in business.<p>
+    But we only invest in people who invest in themselves.<p>
+    You need to show up every day on time, work well with your team members, and be focused on delivering what the client wants. There are no grades and no tests, but you’ll be evaluated continuously. If you don’t perform, you’ll be replaced.<p>
+
+    <ul>
+      <li>Where: <a href="https://goo.gl/maps/Q1iwb" target="_blank">City Stables, Dunkley Square.</a>
+      <li>When: Program begins full-time Monday August 18, 2014.</li>
+      <li>Finalists will be invited to codeX for a Day on July 19, 2014, where you'll get to know us and we'll get to know you.</li>
+      <li>Why: will shoot simple video of us talking about it</li>
+      <li>How</li>
+    </ul>
+
+- header: How?
+  id: '3'
+  icon: cog
+  content: | 
+    COST. per seat is R9000 per month. Coders pay R1000 per month and the rest is sponsored by companies who want to hire you when you've gotten enough experience. As your projects get more sophisticated, if companies want the products you build for them, you'll get paid for them.</p>
+    <p><br>
+    <b>Don&rsquo;t not apply because of money.</b> We will find a way for the best talent to pay their way. But this is the real world, and there&rsquo;s no free lunch.</p>
+    <p>TIMING. codeX is effectively a full-time job, 9 to 5 every weekday. The initial program runs for three months, after which we will help place you in an internship or you will continue in codeX and become a more senior member of a team building real software products for real companies as we take in new coders. We believe a year is what&rsquo;s required for you to become a solid junior developer with a portfolio of real projects (some of which you&rsquo;ll be paid for). It will be different for every individual.</p>
+    <p>BUILD YOUR CV. Every project you do is tagged to the skills you gain from it and points you earn in those skills. You build out your skills tree (which you&rsquo;ll design yourself). Your skills tree is completely individual: you may have bigger branches in design and front-end coding, or back-end programming and database management, or project management and product ownership.<br>
+    codeX hosts your portfolio and corresponding skills tree so employers know exactly what you&rsquo;ve built, what your role was in the project, and how you were evaluated.
+
+- header: Why?
+  id: '4'
+  icon: heart
+  content: | 
+    Michael traded in his corporate stripes for more casual attire when he stepped 
+    down as CEO of First National Bank in August 2013, one of SA’s largest banks 
+    with a customer base of nearly nine million.
