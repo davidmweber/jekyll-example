@@ -386,3 +386,24 @@ $(window).load(function () {
         }
     }
 });
+
+
+    /* ----------------------------------------------------------- */
+    /*  9. About page blocks
+    /* ----------------------------------------------------------- */
+
+function showBlock(num){
+    
+    $('.icon-box-body').fadeOut(300);
+    $('.icon').removeClass('active-block');
+     $('#icon-'+num).toggleClass('active-block');
+    if(  $('#cont-'+num).css('display')=='none' )
+    {
+    $('#cont-'+num).fadeIn();
+    }
+    else
+    {
+        $('#cont-'+num).fadeOut();
+        $('.icon').removeClass('active-block');
+    } 
+};
