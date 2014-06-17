@@ -396,6 +396,7 @@ function showBlock(num){
     
     $('.icon-box-body').fadeOut(300);
     $('.icon').removeClass('active-block');
+    $('.site-wrapper').css("overflow", "auto");
      $('#icon-'+num).toggleClass('active-block');
     if(  $('#cont-'+num).css('display')=='none' )
     {
@@ -405,5 +406,6 @@ function showBlock(num){
     {
         $('#cont-'+num).fadeOut();
         $('.icon').removeClass('active-block');
+        $('.site-wrapper').css("overflow", "hidden");
     } 
 };
