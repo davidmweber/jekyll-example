@@ -4,22 +4,26 @@ title: About
 ---		
 
 	<div class="row block-row">
-			{% for b in site.data.blocks %}
-			<div class="col-sm-4 block-col">
-				<div class="icon-box centered circled icon-box-animated">
-					<a href="javascript:showBlock({{b.id}});">
-						<div class="icon" id="icon-{{b.id}}">
-							<i class="fa fa-{{b.icon}}"></i>
-						</div>
+		{% for b in site.data.blocks %}
+		<div class="col-sm-4 block-col">
+			<div class="icon-box centered circled icon-box-animated">
+				<a href="javascript:showBlock({{b.id}});">
+					<div class="icon" id="icon-{{b.id}}">
+						<i class="fa fa-{{b.icon}}"></i>
+					</div>
 
-						<h3>{{b.header}}</h3>
-					</a>
+					<h3>{{b.header}}</h3>
+				</a>
+				{% if b.include %}
+						{% include {{b.include}} %}
+				    {% else %}
 					<div class="icon-box-body" id="cont-{{b.id}}">
 						<div class="block-content">
 							<p>{{b.content}}</p>
 						</div>
 					</div>
-				</div>
+				{% endif %}
 			</div>
-			{% endfor %}
 		</div>
+		{% endfor %}
+	</div>
