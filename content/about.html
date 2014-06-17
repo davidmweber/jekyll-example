@@ -1,46 +1,25 @@
 ---
 layout: content
 title: About
----
-<section class="page-contents">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
+---		
+
+	<div class="row block-row">
+			{% for b in site.data.blocks %}
+			<div class="col-sm-4 block-col">
 				<div class="icon-box centered circled icon-box-animated">
-					<a href="/content/what.html">
-						<div class="icon">
-							<i class="fa fa-question-circle"></i>
+					<a href="javascript:showBlock({{b.id}});">
+						<div class="icon" id="icon-{{b.id}}">
+							<i class="fa fa-{{b.icon}}"></i>
 						</div>
+
+						<h3>{{b.header}}</h3>
 					</a>
-					<div class="icon-box-body">
-						<h3>What is codeX</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="icon-box centered circled icon-box-animated">
-					<a href="/content/how.html">
-						<div class="icon">
-							<i class="fa fa-cogs"></i>
-						</div> 
-					</a>
-					<div class="icon-box-body">
-						<h3>How it Works</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="icon-box centered circled icon-box-animated">
-					<a href="/content/team.html">
-						<div class="icon">
-							<i class="fa fa-user"></i>
+					<div class="icon-box-body" id="cont-{{b.id}}">
+						<div class="block-content">
+							<p>{{b.content}}</p>
 						</div>
-						</a>
-					<div class="icon-box-body">
-						<h3>Team</h3>
 					</div>
 				</div>
 			</div>
+			{% endfor %}
 		</div>
-	</div>
-</section>
