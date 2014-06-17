@@ -33,6 +33,15 @@ h6,
   text-transform: uppercase;
 }
 
+h3
+{
+	font-weight:700;
+}
+
+a:hover, a:active, a:focus
+{
+    outline:0 !important;
+}
 
 .header-main:before, .header-main, .page-heading:before, .page-heading:after
 {
@@ -140,6 +149,15 @@ top: -2px;
 -moz-osx-font-smoothing: grayscale;
 }
 
+.header .logo, .header .logo img
+{
+    width:150px;
+}
+
+.header .logo .tagline {
+  font-size: 12px;
+}
+
 /* Slide styles */
 
 .codeX, .home, .home .site-wrapper, .swiper-container, .slide-image
@@ -161,7 +179,6 @@ body.home
 	width:370px;
 	max-width:100%;
 	text-shadow:0 0 6px rgba(0,0,0,.6);
-	border:solid 1px red;
 }
 
 
@@ -315,6 +332,49 @@ body.home
 	text-align:center;
 }
 
+.block-row
+{
+	position:relative;
+}
+
+.block-row .block-col, .icon-box
+{
+	position:static;
+}
+
+.icon-box .icon-box-body
+{
+	display: none;
+	position:absolute;
+	z-index:99;
+	background:#fff;
+	left:0;
+	right:0;
+	text-align:left;
+	padding:10px 15px;
+}
+
+.icon-box .icon-box-body h3
+{
+	text-align:left;
+}
+
+.active-block {
+  color: #fff;
+}
+
+.active-block:before {
+  -webkit-transform: scale(0.9, 0.9);
+  -ms-transform: scale(0.9, 0.9);
+  transform: scale(0.9, 0.9);
+  background-color: #2f2f2f !important;
+}
+
+.active-block:after {
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
 /* footer styles */
 .footer-copyright
 {
@@ -359,6 +419,27 @@ height:560px;
 .team-list > li 
 {
 height:540px;
+}
+
+.icon-box.centered .icon
+{
+	font-size:50px;
+	height:100px;
+	width:100px;
+	display:inline-block;
+	float:none;
+	text-align:center;
+	margin-right:0;
+}
+
+.icon-box.centered
+{
+	text-align:center !important;
+}
+
+.icon-box.centered  .icon .fa
+{
+	margin-top:26px;
 }
 
 }
