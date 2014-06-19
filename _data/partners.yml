@@ -1,5 +1,5 @@
 - partner: Ogilvy
-  image: ogilvie.jpg
+  image: ogilvy.jpg
   url: http://www.ogilvy.co.za/
 - partner: Growing Agile
   image: growing-agile.jpg
@@ -13,3 +13,6 @@
 - partner: GetSmarter
   image: getsmarter_black.png
   url: http://www.getsmarter.co.za/
+- partner: Google Developers Cloud
+  image: google-developers-cloud.png
+  url: https://developers.google.com/cloud/
