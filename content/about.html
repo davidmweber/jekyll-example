@@ -15,7 +15,11 @@ title: About
 					<h3>{{b.header}}</h3>
 				</a>
 				{% if b.include %}
-						{% include {{b.include}} %}
+						<div class="icon-box-body" id="cont-{{b.id}}">
+							<div class="block-content">
+								{% include {{b.include}} %}
+							</div>
+						</div>
 				    {% else %}
 					<div class="icon-box-body" id="cont-{{b.id}}">
 						<div class="block-content">
