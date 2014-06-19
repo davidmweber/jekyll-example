@@ -421,10 +421,32 @@ body.home
 	background-color: #7eb22b;
 }
 
+/* Curriculum styling */
 
+svg
+{
+	margin-top:-50px;
+}
 
+.node {
+  cursor: pointer;
+}
 
+.node circle {
+  fill: #8bc53f !important;
+  stroke: #8bc53f;
+  stroke-width: 1.5px;
+}
 
+.node text {
+  font: 13px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: rgba(139,197,63,.3);
+  stroke-width: 2px;
+}
 
 
 @media only screen and (max-width : 1200px) {
