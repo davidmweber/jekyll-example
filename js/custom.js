@@ -389,15 +389,42 @@ $(window).load(function () {
 
 
     /* ----------------------------------------------------------- */
-    /*  9. About page blocks
+    /*  9. Google maps
+    /* ----------------------------------------------------------- */
+var map;
+
+function initialize() {
+ 
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var myLatlng = new google.maps.LatLng(-33.931797, 18.417188);
+  var mapOptions = {
+    zoom: 12,
+    center: myLatlng
+  }
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+
+    /* ----------------------------------------------------------- */
+    /*  10. About page blocks
     /* ----------------------------------------------------------- */
 
 function showBlock(num){
     
+    //google.maps.event.trigger(map, 'resize');
+    //map.setCenter(new google.maps.LatLng(-20.154631, 28.582206));
     $('.icon-box-body').fadeOut(300);
-    $('.icon').removeClass('active-block');
+    $('.icon').removeClass('active-block').css("opacity",".3");
     $('.site-wrapper').css("overflow", "auto");
-     $('#icon-'+num).toggleClass('active-block');
+     $('#icon-'+num).toggleClass('active-block').css("opacity","1");
     if(  $('#cont-'+num).css('display')=='none' )
     {
     $('#cont-'+num).fadeIn();
@@ -405,7 +432,7 @@ function showBlock(num){
     else
     {
         $('#cont-'+num).fadeOut();
-        $('.icon').removeClass('active-block');
+        $('.icon').removeClass('active-block').css("opacity","1");
         $('.site-wrapper').css("overflow", "hidden");
     } 
 };
