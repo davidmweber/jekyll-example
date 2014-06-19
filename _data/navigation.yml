@@ -1,12 +1,5 @@
 - source: about
   title: About
-  sub:
-  - source: what
-    title: What is codeX
-  - source: how
-    title: How it works
-  - source: team
-    title: Team 
 - source: curriculum
   title: Learn
 - source: partners
