@@ -21,29 +21,34 @@
     But we only invest in people who invest in themselves.<p>
     You need to show up every day on time, work well with your team members, and be focused on delivering what the client wants. There are no grades and no tests, but you’ll be evaluated continuously. If you don’t perform, you’ll be replaced.<p>
 
-    <ul>
-      <li>Where: <a href="https://goo.gl/maps/Q1iwb" target="_blank">City Stables, Dunkley Square.</a>
-      <li>When: Program begins full-time Monday August 18, 2014.</li>
-      <li>Finalists will be invited to codeX for a Day on July 19, 2014, where you'll get to know us and we'll get to know you.</li>
-      <li>Why: will shoot simple video of us talking about it</li>
-      <li>How</li>
-    </ul>
-
-- header: How?
+- header: Where?
   id: '3'
-  icon: cog
-  content: | 
-    COST. per seat is R9000 per month. Coders pay R1000 per month and the rest is sponsored by companies who want to hire you when you've gotten enough experience. As your projects get more sophisticated, if companies want the products you build for them, you'll get paid for them.</p>
-    <p><br>
-    <b>Don&rsquo;t not apply because of money.</b> We will find a way for the best talent to pay their way. But this is the real world, and there&rsquo;s no free lunch.</p>
-    <p>TIMING. codeX is effectively a full-time job, 9 to 5 every weekday. The initial program runs for three months, after which we will help place you in an internship or you will continue in codeX and become a more senior member of a team building real software products for real companies as we take in new coders. We believe a year is what&rsquo;s required for you to become a solid junior developer with a portfolio of real projects (some of which you&rsquo;ll be paid for). It will be different for every individual.</p>
-    <p>BUILD YOUR CV. Every project you do is tagged to the skills you gain from it and points you earn in those skills. You build out your skills tree (which you&rsquo;ll design yourself). Your skills tree is completely individual: you may have bigger branches in design and front-end coding, or back-end programming and database management, or project management and product ownership.<br>
-    codeX hosts your portfolio and corresponding skills tree so employers know exactly what you&rsquo;ve built, what your role was in the project, and how you were evaluated.
+  icon: map-marker
+  content: |
+    City Stables, Dunkley Square.<p>
+    <div id="map-canvas"></div>
+
+- header: When?
+  id: '4'
+  icon: calendar
+  content: |
+    Program begins full-time Monday August 18, 2014.<p>Finalists will be invited to codeX for a Day on July 19, 2014, where you'll get to know us and we'll get to know you.
 
 - header: Why?
-  id: '4'
+  id: '6'
   icon: heart
   content: | 
-    Michael traded in his corporate stripes for more casual attire when he stepped 
-    down as CEO of First National Bank in August 2013, one of SA’s largest banks 
-    with a customer base of nearly nine million.
+    <iframe width="420" height="315" src="//www.youtube.com/embed/G0FtgZNOD44" frameborder="0" allowfullscreen></iframe>
+    
+- header: How?
+  id: '5'
+  icon: cog
+  content: | 
+    COST per seat is R8000 per month. Coders pay a portion, the rest can be covered by sponsors or by loans, and we will assist how we can to cover the costs. As your 
+    projects get more sophisticated, if companies want the products you build for them, you'll get paid for them.
+    <p>
+    <b>Don&rsquo;t not apply because of money.</b> We will find a way for the best talent to pay their way. But this is the real world, and there&rsquo;s no free lunch.
+    <p>TIMING. codeX is effectively a full-time job, 9 to 5 every weekday. The initial program runs for three months, after which we will help place you in an internship or you will continue in codeX and become a more senior member of a team building real software products for real companies as we take in new coders. We believe a year is what&rsquo;s required for you to become a solid junior developer with a portfolio of real projects (some of which you&rsquo;ll be paid for). It will be different for every individual.
+    <p> BUILD YOUR CV. Every project you do is tagged to the skills you gain from it and points you earn in those skills. You build out your skills tree (which you&rsquo;ll design yourself). Your skills tree is completely individual: you may have bigger branches in design and front-end coding, or back-end programming and database management, or project management and product ownership.<br>
+    codeX hosts your portfolio and corresponding skills tree so employers know exactly what you&rsquo;ve built, what your role was in the project, and how you were evaluated.
+
