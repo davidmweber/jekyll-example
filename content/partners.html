@@ -6,12 +6,6 @@ title: Partners
 <section class="page-contents">
 	<!-- Partner logos and links -->
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				{% include tab_macro.html tabs=site.data.partner_tabs %}
-			</div>
-		</div>
-		<br><br>
 		{% assign counter = 0 %}
 		<ul class="team-list partners row">
 			{% for p in site.data.partners %}
@@ -29,5 +23,14 @@ title: Partners
 				{% endif %}
 			{% endfor %}
 		</ul>
+		<br><br>
+		<div class="row">
+			<div class="col-md-12">
+				{% for t in site.data.partner_text %}
+					<h3>{{t.header}}</h3>
+					<p>{{t.content}}</p>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 </section>
