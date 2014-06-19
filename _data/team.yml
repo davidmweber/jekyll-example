@@ -1,45 +1,58 @@
 - name: Elizabeth Gould
   position: CEO
-  image: eg.jpg
+  image: elizabeth.jpg
   email: elizabeth@codex-academy.com
   linkedin: http://www.linkedin.com/pub/elizabeth-gould/4/884/576
   twitter: Lsabeth3
   bio: | 
-    Elizabeth gets to be obsessed with her twin passions, technology and Africa,
-    on TV. As host of Bloomberg TV Africa’s The Shift, she travels around the 
-    continent telling the stories of the innovators, investors, and companies 
-    building Africa’s digital future.
+    Elizabeth gets to be obsessed with her twin passions, technology and Africa, on TV. A veteran journalist and executive producer, she
+    has made hundreds of stories, shows, and series on technology and innovation. She now travels around the continent telling stories of
+    the entrepreneurs, investors, and companies building Africa’s digital future for her show, <a href="http://www.bloombergtvafrica.com/video/the-shift-mobile-money-revolution/" target="_blank">The Shift</a>, on Bloomberg TV Africa.<p>
+    She also has a deep and longstanding passion for economic development in Africa, and believes arming people with the tools to build
+    creative products and companies is the key to its future. 
+
 
 - name: David Weber
   position: CTO
-  image: dw.jpg
+  image: dave.jpg
   email: dave@codex-academy.com
   linkedin: http://www.linkedin.com/in/davidmweber
   twitter: veryflatcat
   bio: | 
-    Dave has done quite a bit. Founder, CEO, CTO, Professor, Academic, Engineer 
-    and Computer Scientist. His expertise extends into the arcane depths of his 
-    academic background (telecommunications and digital signal processing) to some 
-    hard core engineering and software development.
+    Founder, CEO, CTO, professor, engineer and computer scientist. His expertise extends from telecommunications and digital signal processing to hard code engineering and 
+    software development. He also knows a bit about starting, managing, growing and turning businesses around. He has a PhD from Carnegie Mellon University and the usual 
+    academic trail of publications and mad inventions. He is passionate about software development as well as the best ways to get great teams of people to build them. 
+
+- name: Michael Jordaan
+  position: Director
+  image: michael.jpg
+  email: michael@codex-academy.com
+  twitter: michaeljordaan
+  bio: | 
+    Michael traded in his corporate stripes for more casual attire when he stepped down as CEO of First National Bank after nearly a decade in 2013. He oversaw the move 
+    away from traditional banking toward online, mobile, and rewards-driven services, which earned FNB awards as the most innovative bank on the continent.<p>
+    With his private investment company Montegray Capital, he now invests in disruptive business models enabled by technology, and serves as Chairman of mobile messaging 
+    company Mxit and non-executive Director on the JSE Limited. 
 
 - name: Cara Turner
   position: COO
-  image: Cara Turner.jpg
+  image: cara.jpg
   email: cara@codex-academy.com
   linkedin: http://za.linkedin.com/in/carafaye
   twitter: Cara_Faye
   bio: | 
-    Cara is a creative and highly motivated agilist, with a drive for growing talented 
-    teams.  Conference speaker, SUGSA chairperson, coach, artist \amp; beginner surfer 
-    - breakthrough change is what gets her going every day. Caffeine and laughter 
-    fill in the rough edges. 
+    Cara is a creative and highly motivated agilist, with a drive for growing talented teams to build awesome softare products.  Chairperson of the Scrummasters Users
+    Group South Africa, conference speaker, coach, artist & beginner surfer - breakthrough change is what gets her going every day. Caffeine and laughter fill in the rough
+    edges.  
 
-- name: Michael Jordaan
-  position: Director
-  image: mj.png
-  email: michael@codex-academy.com
-  twitter: michaeljordaan
+- name: Atka Young
+  position: COO
+  image: atka.jpg
+  email: atka@codex-academy.com
+  linkedin: http://za.linkedin.com/in/atkayoung
+  twitter: Cara_Faye
   bio: | 
-    Michael traded in his corporate stripes for more casual attire when he stepped 
-    down as CEO of First National Bank in August 2013, one of SA’s largest banks 
-    with a customer base of nearly nine million.
+    Atka graduated with a BComm from Stellenbosch University and went on to join the FNB Graduate Program in Johannesburg. Passionate about innovation and 
+    entrepreneurship, she worked at FNB Business Banking specialising in start-ups both on the credit and product value-proposition side, as well as other projects within 
+    the Credit, Product and Analytics areas. After 4 years with FNB, she moved back to her hometown to join Montegray Capital, a young investment company in the venture 
+    capital and tech ecosystem of Stellenbosch.
