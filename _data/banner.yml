@@ -1,10 +1,3 @@
-- image: banner1.jpg
-  caption_head: Can you solve for X?
-  caption_body: |
-   You'll get plenty of coding experience with us, you don't need it to get in. <br>
-   You do need to be a creative and determined problem solver.
-  button_text: Apply here
-  link: content/apply.html
 - image: banner2.jpg
   caption_head: Program or be programmed
   caption_body: |
@@ -13,16 +6,23 @@
   button_text: Learn more
   link: content/curriculum.html
 - image: banner3.jpg
-  caption_head: Become a coder, <br> by working as a coder.
+  caption_head: Learn to be a coder, <br> by working as a coder.
   caption_body: |
    Build a portfolio of real projects for real companies.<br>
    That’s how you learn.
   button_text: Learn more
   link: content/partners.html
 - image: banner4.jpg
-  caption_head: Pay for the education, get paid for the work.
+  caption_head: Pay for the education,<br>get paid for the work.
   caption_body: |
    As you gain experience and skills, 
    companies may pay for what you build at codeX.
   button_text: Work with
   link: content/partners.html
+- image: banner1.jpg
+  caption_head: Can you solve for X?
+  caption_body: |
+   You'll get plenty of coding experience with us, you don't need it to get in. <br>
+   You do need to be a creative and determined problem solver.
+  button_text: Apply here
+  link: content/apply.html
