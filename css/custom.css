@@ -10,7 +10,7 @@ html
 
 body
 {
-	margin-bottom:60px;
+	margin-bottom:65px;
 }
 
 h1,
@@ -36,6 +36,8 @@ h6,
 h3
 {
 	font-weight:700;
+    text-transform:none;
+    margin-bottom:.4em
 }
 
 a:hover, a:active, a:focus
@@ -167,7 +169,7 @@ header.home-page
 }
 
 .header .logo .tagline {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 /* Slide styles */
@@ -365,7 +367,36 @@ body.home
 	left:0;
 	right:0;
 	text-align:left;
-	padding:10px 15px;
+	padding:20px 15px 50px;
+}
+
+.block-hd
+{
+    cursor:pointer;
+}
+
+.block-hd .fa
+{
+    margin-left:10px;
+    font-size:13px;
+    background:#000;
+    padding:3px 5px;
+    border-radius:50%;
+    color:#fff;
+    height:18px;
+    width:18px;
+}
+
+.block-hd.active-header .fa
+{
+    margin-left:10px;
+    font-size:13px;
+    background:#8bc53f;
+    padding:3px 8px;
+    border-radius:50%;
+    color:#fff;
+    height:18px;
+    width:18px;
 }
 
 .icon-box .icon-box-body h3
@@ -387,6 +418,12 @@ body.home
 .active-block:after {
 	background: #fff;
 	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.icon-box .icon-box-body iframe
+{
+	width:100% !important;
+	height:500px;
 }
 
 #map-canvas
@@ -448,12 +485,24 @@ svg
   stroke-width: 2px;
 }
 
+g .link:nth-first-child(1) {
+  fill: none;
+  stroke: rgba(139,197,63,1);
+  stroke-width: 3px;
+}
+
 
 @media only screen and (max-width : 1200px) {
 
 	.team-list > li 
 	{
-		height:560px;
+		height:690px;
+	}
+
+		.icon-box .icon-box-body iframe
+	{
+		width:100% !important;
+		height:400px;
 	}
 }
 
@@ -461,7 +510,7 @@ svg
 @media only screen and (max-width : 992px) {
 	.team-list > li 
 	{
-		height:540px;
+		height:640px;
 	}
 
 	.icon-box.centered .icon
@@ -483,6 +532,12 @@ svg
 	.icon-box.centered  .icon .fa
 	{
 		margin-top:26px;
+	}
+
+		.icon-box .icon-box-body iframe
+	{
+		width:100% !important;
+		height:350px;
 	}
 
 }
