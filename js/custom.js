@@ -387,38 +387,11 @@ $(window).load(function () {
     }
 });
 
-
-    /* ----------------------------------------------------------- */
-    /*  9. Google maps
-    /* ----------------------------------------------------------- */
-var map;
-
-function initialize() {
- 
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var myLatlng = new google.maps.LatLng(-33.931797, 18.417188);
-  var mapOptions = {
-    zoom: 12,
-    center: myLatlng
-  }
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Hello World!'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
-
     /* ----------------------------------------------------------- */
     /*  10. About page blocks
     /* ----------------------------------------------------------- */
 
 function showBlock(num){
-    
     //google.maps.event.trigger(map, 'resize');
     //map.setCenter(new google.maps.LatLng(-20.154631, 28.582206));
     $('.icon-box-body').fadeOut(300);
@@ -428,6 +401,20 @@ function showBlock(num){
     if(  $('#cont-'+num).css('display')=='none' )
     {
     $('#cont-'+num).fadeIn();
+  var myLatlng = new google.maps.LatLng(-33.931797, 18.417188);
+  var mapOptions = {
+    zoom: 13,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+
+google.maps.event.addDomListener(window, 'load', initialize);
     }
     else
     {
@@ -436,3 +423,19 @@ function showBlock(num){
         $('.site-wrapper').css("overflow", "hidden");
     } 
 };
+
+$('.block-content .block-hd').append("<i class='fa fa-angle-down'></i>");
+
+$('.block-content .block-hd').click(function(){
+    $(this).toggleClass('active-header'); 
+    $(this).next('p').toggle(300); 
+    $(this).children('i').toggleClass('fa-angle-down').toggleClass('fa-angle-right')    
+});
+
+
+
+    /* ----------------------------------------------------------- */
+    /*  9. Google maps
+    /* ----------------------------------------------------------- */
+
+
