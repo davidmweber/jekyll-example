@@ -15,14 +15,15 @@
 - image: banner4.jpg
   caption_head: Pay for the education,<br>get paid for the work.
   caption_body: |
-   As you gain experience and skills, 
+   As you gain experience and skills, <br>
    companies may pay for what you build at codeX.
   button_text: Work with
   link: content/partners.html
 - image: banner1.jpg
   caption_head: Can you solve for X?
   caption_body: |
-   You'll get plenty of coding experience with us, you don't need it to get in. <br>
+   You'll get plenty of coding experience with us,<br>
+   you don't need it to get in. <br>
    You do need to be a creative and determined problem solver.
   button_text: Apply here
   link: content/apply.html
