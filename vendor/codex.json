@@ -5,52 +5,22 @@
       "name": "Agile Methodologies",
       "children": [
         {
-          "name": "AM0",
-          "children": [
-            {
-              "name": "Agile manifesto"
-            }
-          ]
+          "name": "Agile manifesto"
         },
         {
-          "name": "AM1",
-          "children": [
-            {
-              "name": "Scrum master role"
-            }
-          ]
+          "name": "Scrum master role"
         },
         {
-          "name": "AM2",
-          "children": [
-            {
-              "name": "Team member role"
-            }
-          ]
+          "name": "Team member role"
         },
         {
-          "name": "AM3",
-          "children": [
-            {
-              "name": "Product owner role"
-            }
-          ]
+          "name": "Product owner role"
         },
         {
-          "name": "AM4",
-          "children": [
-            {
-              "name": "Definition of done"
-            }
-          ]
+          "name": "Definition of done"
         },
         {
-          "name": "AM5",
-          "children": [
-            {
-              "name": "Process meetings"
-            }
-          ]
+          "name": "Process meetings"
         }
       ]
     },
@@ -58,44 +28,19 @@
       "name": "Computer Literacy",
       "children": [
         {
-          "name": "CL0",
-          "children": [
-            {
-              "name": "Ubuntu Desktop"
-            }
-          ]
+          "name": "Ubuntu Desktop"
         },
         {
-          "name": "CL1",
-          "children": [
-            {
-              "name": "Browser"
-            }
-          ]
+          "name": "Browser"
         },
         {
-          "name": "CL2",
-          "children": [
-            {
-              "name": "Email"
-            }
-          ]
+          "name": "Email"
         },
         {
-          "name": "CL3",
-          "children": [
-            {
-              "name": "Basic tools"
-            }
-          ]
+          "name": "Basic tools"
         },
         {
-          "name": "CL4",
-          "children": [
-            {
-              "name": "IM"
-            }
-          ]
+          "name": "IM"
         }
       ]
     },
@@ -103,60 +48,25 @@
       "name": "Testing Methods",
       "children": [
         {
-          "name": "TM0",
-          "children": [
-            {
-              "name": "Test driven development"
-            }
-          ]
+          "name": "Test driven development"
         },
         {
-          "name": "TM1",
-          "children": [
-            {
-              "name": "Behaviour driven development"
-            }
-          ]
+          "name": "Behaviour driven development"
         },
         {
-          "name": "TM2",
-          "children": [
-            {
-              "name": "Refactor under TDD"
-            }
-          ]
+          "name": "Refactor under TDD"
         },
         {
-          "name": "TM3",
-          "children": [
-            {
-              "name": "Set up continuous integration"
-            }
-          ]
+          "name": "Set up continuous integration"
         },
         {
-          "name": "TM4",
-          "children": [
-            {
-              "name": "Maintain clean builds"
-            }
-          ]
+          "name": "Maintain clean builds"
         },
         {
-          "name": "TM5",
-          "children": [
-            {
-              "name": "Use code coverage tool"
-            }
-          ]
+          "name": "Use code coverage tool"
         },
         {
-          "name": "TM6",
-          "children": [
-            {
-              "name": "Use dashboards"
-            }
-          ]
+          "name": "Use dashboards"
         }
       ]
     },
@@ -164,52 +74,22 @@
       "name": "Source control",
       "children": [
         {
-          "name": "SC0",
-          "children": [
-            {
-              "name": "Cloud source control"
-            }
-          ]
+          "name": "Cloud source control"
         },
         {
-          "name": "SC1",
-          "children": [
-            {
-              "name": "Commits"
-            }
-          ]
+          "name": "Commits"
         },
         {
-          "name": "SC2",
-          "children": [
-            {
-              "name": "Multiple developers"
-            }
-          ]
+          "name": "Multiple developers"
         },
         {
-          "name": "SC3",
-          "children": [
-            {
-              "name": "Manage distributed repos"
-            }
-          ]
+          "name": "Manage distributed repos"
         },
         {
-          "name": "SC4",
-          "children": [
-            {
-              "name": "Pull requests"
-            }
-          ]
+          "name": "Pull requests"
         },
         {
-          "name": "SC5",
-          "children": [
-            {
-              "name": "Manage merge conflicts"
-            }
-          ]
+          "name": "Manage merge conflicts"
         }
       ]
     },
@@ -217,28 +97,13 @@
       "name": "Hardware",
       "children": [
         {
-          "name": "HW0",
-          "children": [
-            {
-              "name": "Build up a PC from old hardware"
-            }
-          ]
+          "name": "Build up a PC from old hardware"
         },
         {
-          "name": "HW1",
-          "children": [
-            {
-              "name": "Control the real world"
-            }
-          ]
+          "name": "Control the real world"
         },
         {
-          "name": "HW2",
-          "children": [
-            {
-              "name": "Basic hardware"
-            }
-          ]
+          "name": "Basic hardware"
         }
       ]
     },
@@ -246,28 +111,13 @@
       "name": "Mobile",
       "children": [
         {
-          "name": "MO0",
-          "children": [
-            {
-              "name": "Simple native app"
-            }
-          ]
+          "name": "Simple native app"
         },
         {
-          "name": "MO1",
-          "children": [
-            {
-              "name": "Connect"
-            }
-          ]
+          "name": "Connect"
         },
         {
-          "name": "MO2",
-          "children": [
-            {
-              "name": "Intermediate native app"
-            }
-          ]
+          "name": "Intermediate native app"
         }
       ]
     },
@@ -275,44 +125,19 @@
       "name": "Operating systems",
       "children": [
         {
-          "name": "OS0",
-          "children": [
-            {
-              "name": "Install and configure Linux"
-            }
-          ]
+          "name": "Install and configure Linux"
         },
         {
-          "name": "OS1",
-          "children": [
-            {
-              "name": "Command line"
-            }
-          ]
+          "name": "Command line"
         },
         {
-          "name": "OS2",
-          "children": [
-            {
-              "name": "Shell scripting"
-            }
-          ]
+          "name": "Shell scripting"
         },
         {
-          "name": "OS3",
-          "children": [
-            {
-              "name": "File systems"
-            }
-          ]
+          "name": "File systems"
         },
         {
-          "name": "OS4",
-          "children": [
-            {
-              "name": "Devices"
-            }
-          ]
+          "name": "Devices"
         }
       ]
     },
@@ -320,76 +145,31 @@
       "name": "Programming light",
       "children": [
         {
-          "name": "PL0",
-          "children": [
-            {
-              "name": "Learn a language"
-            }
-          ]
+          "name": "Learn a language"
         },
         {
-          "name": "PL1",
-          "children": [
-            {
-              "name": "Variables and types"
-            }
-          ]
+          "name": "Variables and types"
         },
         {
-          "name": "PL2",
-          "children": [
-            {
-              "name": "Operators"
-            }
-          ]
+          "name": "Operators"
         },
         {
-          "name": "PL3",
-          "children": [
-            {
-              "name": "Control structures"
-            }
-          ]
+          "name": "Control structures"
         },
         {
-          "name": "PL4",
-          "children": [
-            {
-              "name": "Functions"
-            }
-          ]
+          "name": "Functions"
         },
         {
-          "name": "PL5",
-          "children": [
-            {
-              "name": "Basic objects"
-            }
-          ]
+          "name": "Basic objects"
         },
         {
-          "name": "PL6",
-          "children": [
-            {
-              "name": "Intermediate objects"
-            }
-          ]
+          "name": "Intermediate objects"
         },
         {
-          "name": "PL7",
-          "children": [
-            {
-              "name": "Files"
-            }
-          ]
+          "name": "Files"
         },
         {
-          "name": "PL8",
-          "children": [
-            {
-              "name": "Build automation"
-            }
-          ]
+          "name": "Build automation"
         }
       ]
     },
@@ -397,44 +177,19 @@
       "name": "Programming medium",
       "children": [
         {
-          "name": "PM0",
-          "children": [
-            {
-              "name": "Concurrency"
-            }
-          ]
+          "name": "Concurrency"
         },
         {
-          "name": "PM1",
-          "children": [
-            {
-              "name": "Multimedia"
-            }
-          ]
+          "name": "Multimedia"
         },
         {
-          "name": "PM2",
-          "children": [
-            {
-              "name": "Functional programming"
-            }
-          ]
+          "name": "Functional programming"
         },
         {
-          "name": "PM3",
-          "children": [
-            {
-              "name": "Map-reduce "
-            }
-          ]
+          "name": "Map-reduce "
         },
         {
-          "name": "PM4",
-          "children": [
-            {
-              "name": "Parsers and DSLS"
-            }
-          ]
+          "name": "Parsers and DSLS"
         }
       ]
     },
@@ -442,52 +197,22 @@
       "name": "Algorithms",
       "children": [
         {
-          "name": "AL0",
-          "children": [
-            {
-              "name": "Sorting"
-            }
-          ]
+          "name": "Sorting"
         },
         {
-          "name": "AL1",
-          "children": [
-            {
-              "name": "String manipulation"
-            }
-          ]
+          "name": "String manipulation"
         },
         {
-          "name": "AL2",
-          "children": [
-            {
-              "name": "Searching"
-            }
-          ]
+          "name": "Searching"
         },
         {
-          "name": "AL3",
-          "children": [
-            {
-              "name": "Recursion"
-            }
-          ]
+          "name": "Recursion"
         },
         {
-          "name": "AL4",
-          "children": [
-            {
-              "name": "Math algorithm"
-            }
-          ]
+          "name": "Math algorithm"
         },
         {
-          "name": "AL5",
-          "children": [
-            {
-              "name": "Intermediate algorithms"
-            }
-          ]
+          "name": "Intermediate algorithms"
         }
       ]
     },
@@ -495,68 +220,28 @@
       "name": "Data structures",
       "children": [
         {
-          "name": "UI0",
-          "children": [
-            {
-              "name": "Technologies"
-            }
-          ]
+          "name": "Technologies"
         },
         {
-          "name": "UI1",
-          "children": [
-            {
-              "name": "Widgets and layout"
-            }
-          ]
+          "name": "Widgets and layout"
         },
         {
-          "name": "UI2",
-          "children": [
-            {
-              "name": "Callbacks and events"
-            }
-          ]
+          "name": "Callbacks and events"
         },
         {
-          "name": "UI3",
-          "children": [
-            {
-              "name": "User feedback"
-            }
-          ]
+          "name": "User feedback"
         },
         {
-          "name": "UI4",
-          "children": [
-            {
-              "name": "MVC"
-            }
-          ]
+          "name": "MVC"
         },
         {
-          "name": "UI5",
-          "children": [
-            {
-              "name": "Testing"
-            }
-          ]
+          "name": "Testing"
         },
         {
-          "name": "UI6",
-          "children": [
-            {
-              "name": "Storyboarding"
-            }
-          ]
+          "name": "Storyboarding"
         },
         {
-          "name": "UI7",
-          "children": [
-            {
-              "name": "I18N"
-            }
-          ]
+          "name": "I18N"
         }
       ]
     },
@@ -564,68 +249,28 @@
       "name": "HTML5",
       "children": [
         {
-          "name": "HT0",
-          "children": [
-            {
-              "name": "XML"
-            }
-          ]
+          "name": "XML"
         },
         {
-          "name": "HT1",
-          "children": [
-            {
-              "name": "Basic HTML elements"
-            }
-          ]
+          "name": "Basic HTML elements"
         },
         {
-          "name": "HT2",
-          "children": [
-            {
-              "name": "Basic CSS"
-            }
-          ]
+          "name": "Basic CSS"
         },
         {
-          "name": "HT3",
-          "children": [
-            {
-              "name": "Dynamic HTML generation"
-            }
-          ]
+          "name": "Dynamic HTML generation"
         },
         {
-          "name": "HT4",
-          "children": [
-            {
-              "name": "HTML templates"
-            }
-          ]
+          "name": "HTML templates"
         },
         {
-          "name": "HT5",
-          "children": [
-            {
-              "name": "Javascript and the DOM"
-            }
-          ]
+          "name": "Javascript and the DOM"
         },
         {
-          "name": "HT6",
-          "children": [
-            {
-              "name": "Forms"
-            }
-          ]
+          "name": "Forms"
         },
         {
-          "name": "HT7",
-          "children": [
-            {
-              "name": "Intermediate topics"
-            }
-          ]
+          "name": "Intermediate topics"
         }
       ]
     },
@@ -633,60 +278,25 @@
       "name": "Web services",
       "children": [
         {
-          "name": "WS0",
-          "children": [
-            {
-              "name": "URLS"
-            }
-          ]
+          "name": "URLS"
         },
         {
-          "name": "WS1",
-          "children": [
-            {
-              "name": "HTTP protocol"
-            }
-          ]
+          "name": "HTTP protocol"
         },
         {
-          "name": "WS2",
-          "children": [
-            {
-              "name": "Authentication"
-            }
-          ]
+          "name": "Authentication"
         },
         {
-          "name": "WS3",
-          "children": [
-            {
-              "name": "Security"
-            }
-          ]
+          "name": "Security"
         },
         {
-          "name": "WS4",
-          "children": [
-            {
-              "name": "ReST clients"
-            }
-          ]
+          "name": "ReST clients"
         },
         {
-          "name": "WS5",
-          "children": [
-            {
-              "name": "ReST server"
-            }
-          ]
+          "name": "ReST server"
         },
         {
-          "name": "WS6",
-          "children": [
-            {
-              "name": "Deploy rest service"
-            }
-          ]
+          "name": "Deploy rest service"
         }
       ]
     },
@@ -694,28 +304,13 @@
       "name": "Web Servers",
       "children": [
         {
-          "name": "WB0",
-          "children": [
-            {
-              "name": "Set up a web server"
-            }
-          ]
+          "name": "Set up a web server"
         },
         {
-          "name": "WB1",
-          "children": [
-            {
-              "name": "Monitor performance "
-            }
-          ]
+          "name": "Monitor performance "
         },
         {
-          "name": "WB2",
-          "children": [
-            {
-              "name": "Security and access control"
-            }
-          ]
+          "name": "Security and access control"
         }
       ]
     },
@@ -723,36 +318,16 @@
       "name": "Deployment",
       "children": [
         {
-          "name": "DE0",
-          "children": [
-            {
-              "name": "Script a deployment"
-            }
-          ]
+          "name": "Script a deployment"
         },
         {
-          "name": "DE1",
-          "children": [
-            {
-              "name": "Use a cloud service"
-            }
-          ]
+          "name": "Use a cloud service"
         },
         {
-          "name": "DE2",
-          "children": [
-            {
-              "name": "Understand container models"
-            }
-          ]
+          "name": "Understand container models"
         },
         {
-          "name": "DE3",
-          "children": [
-            {
-              "name": "Lifecycle and economics"
-            }
-          ]
+          "name": "Lifecycle and economics"
         }
       ]
     },
@@ -760,44 +335,19 @@
       "name": "Networking",
       "children": [
         {
-          "name": "NW0",
-          "children": [
-            {
-              "name": "Set up a network"
-            }
-          ]
+          "name": "Set up a network"
         },
         {
-          "name": "NW1",
-          "children": [
-            {
-              "name": "Set up a DNS"
-            }
-          ]
+          "name": "Set up a DNS"
         },
         {
-          "name": "NW2",
-          "children": [
-            {
-              "name": "Register a domain"
-            }
-          ]
+          "name": "Register a domain"
         },
         {
-          "name": "NW3",
-          "children": [
-            {
-              "name": "Socket programming"
-            }
-          ]
+          "name": "Socket programming"
         },
         {
-          "name": "NW4",
-          "children": [
-            {
-              "name": "Unix socket handler inetd"
-            }
-          ]
+          "name": "Unix socket handler inetd"
         }
       ]
     },
@@ -805,44 +355,19 @@
       "name": "Networking",
       "children": [
         {
-          "name": "NW0",
-          "children": [
-            {
-              "name": "Set up a network"
-            }
-          ]
+          "name": "Set up a network"
         },
         {
-          "name": "NW1",
-          "children": [
-            {
-              "name": "Set up a DNS"
-            }
-          ]
+          "name": "Set up a DNS"
         },
         {
-          "name": "NW2",
-          "children": [
-            {
-              "name": "Register a domain"
-            }
-          ]
+          "name": "Register a domain"
         },
         {
-          "name": "NW3",
-          "children": [
-            {
-              "name": "Socket programming"
-            }
-          ]
+          "name": "Socket programming"
         },
         {
-          "name": "NW4",
-          "children": [
-            {
-              "name": "Unix socket handler inetd"
-            }
-          ]
+          "name": "Unix socket handler inetd"
         }
       ]
     },
@@ -850,60 +375,25 @@
       "name": "Databases",
       "children": [
         {
-          "name": "DB0",
-          "children": [
-            {
-              "name": "Setup a relational DB"
-            }
-          ]
+          "name": "Setup a relational DB"
         },
         {
-          "name": "DB1",
-          "children": [
-            {
-              "name": "SQL CRUD operations"
-            }
-          ]
+          "name": "SQL CRUD operations"
         },
         {
-          "name": "DB2",
-          "children": [
-            {
-              "name": "Intermediate SQL"
-            }
-          ]
+          "name": "Intermediate SQL"
         },
         {
-          "name": "DB3",
-          "children": [
-            {
-              "name": "High level SQL DB access"
-            }
-          ]
+          "name": "High level SQL DB access"
         },
         {
-          "name": "DB4",
-          "children": [
-            {
-              "name": "Set up a NoSQL DB"
-            }
-          ]
+          "name": "Set up a NoSQL DB"
         },
         {
-          "name": "DB5",
-          "children": [
-            {
-              "name": "NoSQL CRUD"
-            }
-          ]
+          "name": "NoSQL CRUD"
         },
         {
-          "name": "DB6",
-          "children": [
-            {
-              "name": "High level No SQL DB access"
-            }
-          ]
+          "name": "High level No SQL DB access"
         }
       ]
     },
@@ -911,52 +401,22 @@
       "name": "Graphic design",
       "children": [
         {
-          "name": "GD0",
-          "children": [
-            {
-              "name": "Icons and graphical elements"
-            }
-          ]
+          "name": "Icons and graphical elements"
         },
         {
-          "name": "GD1",
-          "children": [
-            {
-              "name": "Typography"
-            }
-          ]
+          "name": "Typography"
         },
         {
-          "name": "GD2",
-          "children": [
-            {
-              "name": "Placement"
-            }
-          ]
+          "name": "Placement"
         },
         {
-          "name": "GD3",
-          "children": [
-            {
-              "name": "Overall esthetics"
-            }
-          ]
+          "name": "Overall esthetics"
         },
         {
-          "name": "GD4",
-          "children": [
-            {
-              "name": "Integration"
-            }
-          ]
+          "name": "Integration"
         },
         {
-          "name": "GD5",
-          "children": [
-            {
-              "name": "Theming"
-            }
-          ]
+          "name": "Theming"
         }
       ]
     }
