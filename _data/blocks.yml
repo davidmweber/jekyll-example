@@ -41,7 +41,17 @@
   id: '6'
   icon: bolt
   content: | 
-    <iframe width="420" height="315" src="//www.youtube.com/embed/G0FtgZNOD44" frameborder="0" allowfullscreen></iframe>
+    <h4 class="block-hd">BUILDING OUR DIGITAL ECONOMY</h4>
+    <p style="display:none">Africa has the world’s fastest growing economies and youngest population, nearly all of whom connect with the world on mobile phones. In the next decade, the hundreds of millions of Africans who aren’t
+    online already will be. Thousands and thousands of jobs will be created to meet the demands of a billion person digital economy across 54 countries. Many of those jobs are already here.<br><br>
+    In our varied backgrounds across media, finance, engineering, and software development, the codeX team constantly meets companies struggling to fill their growing ranks with highly skilled creative 
+    developers. They are often forced to outsource these jobs elsewhere. On the other side, we know untold thousands of young, smart, digitally savvy Africans don’t have access to the education needed to get
+    these high paying jobs and build careers powering Africa’s growth.<br><br>
+    The tech world needs a powerful but efficient way to bring more people in. codeX supports teams of apprentices working with real companies and not just students in a classroom, because you’re learning the
+    skills the job market wants in real time, and meeting the people who will hire you long before you go to an interview. At the same time, you have a safe space to experiment, take risks, and explore your own
+    talents so you will be ready to take on that great job, or even build your own company.<br><br>
+    Africa will play a much bigger role in the global economy in the years to come. Sure, it has resources the world needs, but its biggest assets are its peoples' creativity, ingenuity, and determination. The
+    mission of codeX is to arm you with the skills you need to take all that talent and create the future.</p>
     
 - header: How?
   id: '5'
