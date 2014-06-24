@@ -404,15 +404,167 @@ function showBlock(num){
   var myLatlng = new google.maps.LatLng(-33.931797, 18.417188);
   var mapOptions = {
     zoom: 13,
-    center: myLatlng
+    center: myLatlng,
+    scrollwheel: false,
+    styles: [
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#818c72"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#8bc53f"
+            },
+            {
+                "saturation": -22
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#cee6af"
+            },
+            {
+                "saturation": 10
+            },
+            {
+                "lightness": 76
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#cee6af"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#666"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#446bb8"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#666"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "all",
+        "stylers": [
+            {
+                "invert_lightness": false
+            },
+            {
+                "color": "#ffffff"
+            },
+            {
+                "weight": 0.43
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#cee6af"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#3b5998"
+            }
+        ]
+    }
+]
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
+  var image = '../images/codex-marker.png';
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title: 'Hello World!'
+      title: 'Hello World!',
+      icon: image
   });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: '<h4 style="text-transform:none">codeX Academy</h4><p>THE STABLES, 11 WANDEL ST, DUNKLEY SQUARE, CAPE TOWN 8001</p><a href="https://www.google.co.za/maps/dir//-33.9317787,18.4171049/@-33.9317286,18.4171129,19z/data=!4m3!4m2!1m0!1m0" target="_blank"><h6><i class="fa fa-share"></i> Open in google maps</h6></a>'
+    });
+    // End of infowindow code
+
+    // Adding a click event to the marker
+    google.maps.event.addListener(marker, 'click', function() {
+    // Calling the open method of the infoWindow
+    infowindow.open(map, marker);
+    });
+    // 
 
 google.maps.event.addDomListener(window, 'load', initialize);
     }
