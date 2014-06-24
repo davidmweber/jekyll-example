@@ -33,6 +33,12 @@ h6,
 	text-transform: uppercase;
 }
 
+.page-heading h1 {
+    padding: 25px 0px;
+    font-weight:700;
+    text-shadow:0 3px 5px rgba(0,0,0,.4);
+}
+
 h3
 {
 	font-weight:700;
@@ -266,6 +272,30 @@ body.home
 
 /* End home page header styling */
 
+html section.page-heading
+{
+    background:url(../images/apply.jpg) no-repeat;
+    background-size:cover
+}
+
+html.About section.page-heading
+{
+    background:url(../images/about.jpg) no-repeat;
+    background-size:cover
+}
+
+html.Curriculum section.page-heading
+{
+    background:url(../images/curriculum.jpg) no-repeat;
+    background-size:cover
+}
+
+html.Partners section.page-heading
+{
+    background:url(../images/partners.jpg) no-repeat;
+    background-size:cover
+}
+
 
 .team-head
 {
@@ -491,6 +521,9 @@ g .link:nth-first-child(1) {
   stroke-width: 3px;
 }
 
+text[Attributes Style] {
+text-anchor: auto !important;
+}
 
 @media only screen and (max-width : 1200px) {
 
