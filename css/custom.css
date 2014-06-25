@@ -34,9 +34,9 @@ h6,
 }
 
 .page-heading h1 {
-    padding: 25px 0px;
-    font-weight:700;
-    text-shadow:0 3px 5px rgba(0,0,0,.4);
+	padding: 25px 0px;
+	font-weight:700;
+	text-shadow:0 3px 5px rgba(0,0,0,.4);
 }
 
 .page-heading a
@@ -47,8 +47,8 @@ h6,
 h3
 {
 	font-weight:700;
-    text-transform:none;
-    margin-bottom:.4em
+	text-transform:none;
+	margin-bottom:.4em
 }
 
 a:hover, a:active, a:focus
@@ -279,26 +279,26 @@ body.home
 
 html section.page-heading
 {
-    background:url(../images/apply.jpg) no-repeat;
-    background-size:cover
+	background:url(../images/apply.jpg) no-repeat;
+	background-size:cover
 }
 
 html.About section.page-heading
 {
-    background:url(../images/about.jpg) no-repeat;
-    background-size:cover
+	background:url(../images/about.jpg) no-repeat;
+	background-size:cover
 }
 
 html.Curriculum section.page-heading
 {
-    background:url(../images/curriculum.jpg) no-repeat;
-    background-size:cover
+	background:url(../images/curriculum.jpg) no-repeat;
+	background-size:cover
 }
 
 html.Partners section.page-heading
 {
-    background:url(../images/partners.jpg) no-repeat center;
-    background-size:cover;
+	background:url(../images/partners.jpg) no-repeat center;
+	background-size:cover;
 	
 }
 
@@ -408,31 +408,31 @@ html.Partners section.page-heading
 
 .block-hd
 {
-    cursor:pointer;
+	cursor:pointer;
 }
 
 .block-hd .fa
 {
-    margin-left:10px;
-    font-size:13px;
-    background:#000;
-    padding:3px 5px;
-    border-radius:50%;
-    color:#fff;
-    height:18px;
-    width:18px;
+	margin-left:10px;
+	font-size:13px;
+	background:#000;
+	padding:3px 5px;
+	border-radius:50%;
+	color:#fff;
+	height:18px;
+	width:18px;
 }
 
 .block-hd.active-header .fa
 {
-    margin-left:10px;
-    font-size:13px;
-    background:#8bc53f;
-    padding:3px 8px;
-    border-radius:50%;
-    color:#fff;
-    height:18px;
-    width:18px;
+	margin-left:10px;
+	font-size:13px;
+	background:#8bc53f;
+	padding:3px 8px;
+	border-radius:50%;
+	color:#fff;
+	height:18px;
+	width:18px;
 }
 
 .icon-box .icon-box-body h3
@@ -502,33 +502,33 @@ svg
 }
 
 .node {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .node circle {
-  fill: #8bc53f !important;
-  stroke: #8bc53f;
-  stroke-width: 1.5px;
+	fill: #8bc53f !important;
+	stroke: #8bc53f;
+	stroke-width: 1.5px;
 }
 
 .node text {
-  font: 13px sans-serif;
+	font: 13px sans-serif;
 }
 
 .link {
-  fill: none;
-  stroke: rgba(139,197,63,.3);
-  stroke-width: 2px;
+	fill: none;
+	stroke: rgba(139,197,63,.3);
+	stroke-width: 2px;
 }
 
 g .link:nth-first-child(1) {
-  fill: none;
-  stroke: rgba(139,197,63,1);
-  stroke-width: 3px;
+	fill: none;
+	stroke: rgba(139,197,63,1);
+	stroke-width: 3px;
 }
 
 text[Attributes Style] {
-text-anchor: auto !important;
+	text-anchor: auto !important;
 }
 
 @media only screen and (max-width : 1200px) {
@@ -538,7 +538,7 @@ text-anchor: auto !important;
 		height:690px;
 	}
 
-		.icon-box .icon-box-body iframe
+	.icon-box .icon-box-body iframe
 	{
 		width:100% !important;
 		height:400px;
@@ -573,7 +573,7 @@ text-anchor: auto !important;
 		margin-top:26px;
 	}
 
-		.icon-box .icon-box-body iframe
+	.icon-box .icon-box-body iframe
 	{
 		width:100% !important;
 		height:350px;
