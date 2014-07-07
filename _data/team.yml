@@ -1,7 +1,7 @@
 - name: Elizabeth Gould
   position: CEO
   image: elizabeth.jpg
-  email: elizabeth@codex-academy.com
+  email: elizabeth@projectcodex.co
   linkedin: http://www.linkedin.com/pub/elizabeth-gould/4/884/576
   twitter: Lsabeth3
   bio: | 
@@ -15,7 +15,7 @@
 - name: David Weber
   position: CTO
   image: dave.jpg
-  email: dave@codex-academy.com
+  email: dave@projectcodex.co
   linkedin: http://www.linkedin.com/in/davidmweber
   twitter: veryflatcat
   bio: | 
@@ -26,7 +26,7 @@
 - name: Michael Jordaan
   position: Director
   image: michael.jpg
-  email: michael@codex-academy.com
+  email: michael@projectcodex.co
   twitter: michaeljordaan
   bio: | 
     Michael traded in his corporate stripes for more casual attire when he stepped down as CEO of First National Bank after nearly a decade in 2013. He oversaw the move 
@@ -37,7 +37,7 @@
 - name: Cara Turner
   position: COO
   image: cara.jpg
-  email: cara@codex-academy.com
+  email: cara@projectcodex.co
   linkedin: http://za.linkedin.com/in/carafaye
   twitter: Cara_Faye
   bio: | 
@@ -48,7 +48,7 @@
 - name: Atka Young
   position: COO
   image: atka.jpg
-  email: atka@codex-academy.com
+  email: atka@projectcodex.co
   linkedin: http://za.linkedin.com/in/atkayoung
   twitter: Cara_Faye
   bio: | 
