@@ -220,28 +220,19 @@
       "name": "Data structures",
       "children": [
         {
-          "name": "Technologies"
+          "name": "Lists"
         },
         {
-          "name": "Widgets and layout"
+          "name": "Arrays"
         },
         {
-          "name": "Callbacks and events"
+          "name": "Sets"
         },
         {
-          "name": "User feedback"
+          "name": "Maps"
         },
         {
-          "name": "MVC"
-        },
-        {
-          "name": "Testing"
-        },
-        {
-          "name": "Storyboarding"
-        },
-        {
-          "name": "I18N"
+          "name": "Trees"
         }
       ]
     },
@@ -328,26 +319,6 @@
         },
         {
           "name": "Lifecycle and economics"
-        }
-      ]
-    },
-    {
-      "name": "Networking",
-      "children": [
-        {
-          "name": "Set up a network"
-        },
-        {
-          "name": "Set up a DNS"
-        },
-        {
-          "name": "Register a domain"
-        },
-        {
-          "name": "Socket programming"
-        },
-        {
-          "name": "Unix socket handler inetd"
         }
       ]
     },
