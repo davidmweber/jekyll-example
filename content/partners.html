@@ -32,5 +32,12 @@ title: Partners
 				{% endfor %}
 			</div>
 		</div>
+		<div class="row">
+			{% for i in site.data.partner_images %}
+					<div class="col-sm-4 image-blocks">
+						<img src="/images/{{i.image}}" alt="">
+					</div>
+			{% endfor %}
+		</div>
 	</div>
 </section>
