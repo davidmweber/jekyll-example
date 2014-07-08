@@ -27,7 +27,7 @@
   id: '3'
   icon: map-marker
   content: |
-    <h4>The Stables, 11 Wandel St, Dunkley Square, Cape Town 8001</h4>
+    <h4>The Stables, 9a Wandel St, Dunkley Square, Cape Town 8001</h4>
     <div id="map-canvas"></div>
 
 - header: When?
