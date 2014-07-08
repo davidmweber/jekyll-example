@@ -401,9 +401,9 @@ function showBlock(num){
     if(  $('#cont-'+num).css('display')=='none' )
     {
     $('#cont-'+num).fadeIn();
-  var myLatlng = new google.maps.LatLng(-33.931797, 18.417188);
+  var myLatlng = new google.maps.LatLng(-33.9317843,18.4175861);
   var mapOptions = {
-    zoom: 13,
+    zoom: 14,
     center: myLatlng,
     scrollwheel: false,
     styles: [
@@ -546,16 +546,16 @@ function showBlock(num){
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-  var image = '../images/codex-marker.png';
+  var image = '../images/codeX-marker.png';
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title: 'Hello World!',
+      title: 'Project codeX',
       icon: image
   });
 
   var infowindow = new google.maps.InfoWindow({
-    content: '<h4 style="text-transform:none">codeX Academy</h4><p>THE STABLES, 11 WANDEL ST, DUNKLEY SQUARE, CAPE TOWN 8001</p><a href="https://www.google.co.za/maps/dir//-33.9317787,18.4171049/@-33.9317286,18.4171129,19z/data=!4m3!4m2!1m0!1m0" target="_blank"><h6><i class="fa fa-share"></i> Open in google maps</h6></a>'
+    content: '<h4 style="text-transform:none">codeX Academy</h4><p>THE STABLES, 9a WANDEL ST, DUNKLEY SQUARE, CAPE TOWN 8001</p><a href="https://www.google.co.za/maps/dir//-33.9317787,18.4171049/@-33.9317286,18.4171129,19z/data=!4m3!4m2!1m0!1m0" target="_blank"><h6><i class="fa fa-share"></i> Open in google maps</h6></a>'
     });
     // End of infowindow code
 
