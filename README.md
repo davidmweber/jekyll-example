@@ -3,7 +3,12 @@
 The  website is build using the [Jekyll](http://jekyllrb.com/) site generator and the [stability](http://themeforest.net/item/stability-responsive-html5css3-template/7222255) HTML template. Note that we have purchased a regular license for codeX. This approach allows fast and flexible changes to be made to the site by templating key aspects such as navigation, layouts and the like.
 
 ## Setup
-You need to have [Jekyll](http://jekyllrb.com/). You install all your requirements as follows (OSX and Linux):
+
+The setup procedure is a series of commands that are run from a terminal. On OSX, if you don't have xcode command line tools installed (you get an error complaining about not finding `ruby.h`) then install xcode tools as follows:
+
+ 1. xcode-select --install
+
+Next, install [Jekyll](http://jekyllrb.com/) using:
 
  1.  `sudo gem install jekyll`
 
