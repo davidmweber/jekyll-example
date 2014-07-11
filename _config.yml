@@ -1,5 +1,5 @@
 name: Project codeX
-description: Growing agile developers for Africa
+description: Growing agile developers in Africa
 markdown: redcarpet
 highlighter: pygments
 exclude: [README.md]
