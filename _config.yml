@@ -1,5 +1,5 @@
-name: codeX Academy
-description: All about the wonderful academy
+name: Project codeX
+description: Growing agile developers for Africa
 markdown: redcarpet
 highlighter: pygments
 exclude: [README.md]
