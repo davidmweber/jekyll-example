@@ -6,7 +6,7 @@ The  website is build using the [Jekyll](http://jekyllrb.com/) site generator an
 
 The setup procedure is a series of commands that are run from a terminal. On OSX, if you don't have xcode command line tools installed (you get an error complaining about not finding `ruby.h`) then install xcode tools as follows:
 
- 1. xcode-select --install
+ 1. `xcode-select --install`
 
 Next, install [Jekyll](http://jekyllrb.com/) using:
 
