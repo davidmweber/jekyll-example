@@ -1,9 +1,12 @@
+- partner: Google
+  image: Google logos.jpg
+  url: https://developers.google.com/cloud/
 - partner: Ogilvy
   image: ogilvy.jpg
   url: http://www.ogilvy.co.za/
 - partner: Growing Agile
   image: growing-agile.jpg
-  url: http://growingagile.co.za/
+  url: http://growingagile.co.za/?utm_source=sponsorship&utm_medium=web&utm_campaign=codex
 - partner: fireID
   image: fireId.png
   url: http://www.fireid.com/
@@ -13,6 +16,3 @@
 - partner: GetSmarter
   image: getsmarter_black.png
   url: http://www.getsmarter.co.za/
-- partner: Google Developers Cloud
-  image: google-developers-cloud.png
-  url: https://developers.google.com/cloud/

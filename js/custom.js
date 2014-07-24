@@ -555,7 +555,7 @@ function showBlock(num){
   });
 
   var infowindow = new google.maps.InfoWindow({
-    content: '<h4 style="text-transform:none">codeX Academy</h4><p>THE STABLES, 9a WANDEL ST, DUNKLEY SQUARE, CAPE TOWN 8001</p><a href="https://www.google.co.za/maps/dir//-33.9317787,18.4171049/@-33.9317286,18.4171129,19z/data=!4m3!4m2!1m0!1m0" target="_blank"><h6><i class="fa fa-share"></i> Open in google maps</h6></a>'
+    content: '<h4 style="text-transform:none">Project codeX</h4><p>THE STABLES, 9A WANDEL ST, DUNKLEY SQUARE, CAPE TOWN 8001</p><a href="https://www.google.co.za/maps/dir//-33.9317787,18.4171049/@-33.9317286,18.4171129,19z/data=!4m3!4m2!1m0!1m0" target="_blank"><h6><i class="fa fa-share"></i> Open in google maps</h6></a>'
     });
     // End of infowindow code
 
