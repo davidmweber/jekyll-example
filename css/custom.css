@@ -597,6 +597,18 @@ text[Attributes Style] {
 	{
 		height:auto;
 	}
+	
+	.icon-box .icon-box-body
+	{
+		display: none;
+		position:relative;
+		z-index:99;
+		background:#fff;
+		left:0;
+		right:0;
+		text-align:left;
+		padding:20px 15px 50px;
+	}
 
 	.footer-copyright
 	{
@@ -605,6 +617,12 @@ text[Attributes Style] {
 		bottom:0;
 		width:100%;
 		padding-top:5px;
+	}
+	
+	.block-row .block-col
+	{
+		margin-top:none !important;
+		padding-top:none !important;
 	}
 
 }
