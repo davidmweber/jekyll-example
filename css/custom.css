@@ -110,6 +110,15 @@ a:hover, a:active, a:focus
 	background:#2F2F2F !important;
 }
 
+body.sticky-header .header {
+  position: fixed;
+  top: -4px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
 
 /* home page header styling */
 .header-main:before, .home-page .header-main, header.home-page
@@ -402,7 +411,7 @@ html.Partners section.page-heading
 {
 	display: none;
 	position:absolute;
-	z-index:99;
+	/*z-index:99;*/
 	background:#fff;
 	left:0;
 	right:0;
