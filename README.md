@@ -51,6 +51,15 @@ obvious with the `source` pointing to a file in the `content/` directory and the
 ## Deployment
 There are several ways to deploy the site. GitHub allows us to host for free (using [GitHub pages](https://pages.github.com/)) and provides automatic updates on commit. For now, this has been disabled. One can also simply deploy the contents of the `_site` directory to a service of your choice.
 
+The current deployment is via Google storage and the `gsutil` package.
+Assuming you have installed the tools and authenticated yourself, the
+following command executed from the `codex-site` directory will update the
+deployed site with the local changes:
+
+```bash
+jekyll build
+gsutil rsync -p -r -c _site/ gs://www.projectcodex.co
+```
 
 
 
