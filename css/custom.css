@@ -488,6 +488,29 @@ html.Partners section.page-heading
 	height:auto;
 }
 
+.icon-box-body
+{
+    position:relative;
+}
+
+.icon-box-body .close-par
+{
+    position:absolute;
+    top:0;
+    right:0;
+    background: #8bc53f;;
+    color:#fff;
+    padding:2px 8px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:background ease-in .2s;
+}
+
+.icon-box-body .close-par:hover
+{
+    background:#333
+}
+
 /* footer styles */
 .footer-copyright
 {
