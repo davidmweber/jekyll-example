@@ -32,6 +32,17 @@ jQuery(function($){
 		checkWindowSize();
 		$(window).resize(checkWindowSize);  
 	});
+	
+	$(".block-content span.close-par").click( function (e) {
+		$('.icon-box-body').fadeOut();
+        var e = $('.block-row > div').slice(-3);
+        $(e).css({
+            'margin-top':'0',
+            'padding-top':'0'            
+        });
+		$('.site-wrapper').css({
+			'padding-bottom': 'none'});
+	});
 
 
     /* ----------------------------------------------------------- */
@@ -408,24 +419,32 @@ function showBlock(num){
     //google.maps.event.trigger(map, 'resize');
     //map.setCenter(new google.maps.LatLng(-20.154631, 28.582206));
     $('.icon-box-body').fadeOut(300);
-    $('.icon').removeClass('active-block').css("opacity",".3");
-    $('.site-wrapper').css("overflow", "auto");//.height($(this).height()+300)
-     $('#icon-'+num).toggleClass('active-block').css("opacity","1");
+    $('.icon').removeClass('active-block');
+	$('#icon-'+num).toggleClass('active-block');
     if(  $('#cont-'+num).css('display')=='none' )
     {
     $('#cont-'+num).fadeIn();
-    var blockheight = $('#cont-'+num).height();
-	var e = $('.block-row > div').slice(-3);
-	if (num < 4)
-	{
-		$(e).css('margin-top',blockheight);
-		$(e).css('padding-top','50px');
-	}
-	else
-	{
-		$(e).css('margin-top','none');
-		$(e).css('padding-top','none');
-	}
+	if($(window).innerWidth() <= 768) {
+	   var e = $('.block-row > div').slice(-3);
+		$(e).css('margin-top','none !important');
+		$(e).css('padding-top','none !important');
+	} else {
+		var blockheight = $('#cont-'+num).height();
+		var e = $('.block-row > div').slice(-3);
+		if (num < 4)
+		{
+			$(e).css('margin-top',blockheight);
+			$(e).css('padding-top','50px');
+		}
+		else
+		{
+			$(e).css('margin-top','none');
+			$(e).css('padding-top','none');
+			$('.site-wrapper').css({
+			'padding-bottom': blockheight});
+		}
+};
+    
     
   var myLatlng = new google.maps.LatLng(-33.9317843,18.4175861);
   var mapOptions = {
@@ -465,8 +484,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		var e = $('.block-row > div').slice(-3);
     	$(e).css('margin-top','none');
 		$(e).css('padding-top','none');
-        $('.icon').removeClass('active-block').css("opacity","1");
-        $('.site-wrapper').css("overflow", "hidden");
+        $('.icon').removeClass('active-block');
+			$('.site-wrapper').css({
+			'padding-bottom': 'none'});
     } 
 };
 
@@ -480,5 +500,4 @@ $('.block-content .block-hd').click(function(){
     /* ----------------------------------------------------------- */
     /*  9. Google maps
     /* ----------------------------------------------------------- */
-
 
