@@ -110,6 +110,15 @@ a:hover, a:active, a:focus
 	background:#2F2F2F !important;
 }
 
+body.sticky-header .header {
+  position: fixed;
+  top: -4px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
 
 /* home page header styling */
 .header-main:before, .home-page .header-main, header.home-page
@@ -279,13 +288,17 @@ body.home
 
 html section.page-heading
 {
+	background:#333;
+	background-size:cover
+}
+html.have section.page-heading
+{
 	background:url(../images/apply.jpg) no-repeat;
 	background-size:cover
 }
 
 html.About section.page-heading
 {
-	background:url(../images/about.jpg) no-repeat;
 	background-size:cover
 }
 
@@ -398,7 +411,7 @@ html.Partners section.page-heading
 {
 	display: none;
 	position:absolute;
-	z-index:99;
+	/*z-index:99;*/
 	background:#fff;
 	left:0;
 	right:0;
@@ -467,6 +480,35 @@ html.Partners section.page-heading
 	width:100%;
 	height:400px;
 	display: block;
+}
+
+.image-blocks img
+{
+	max-width: 100%;
+	height:auto;
+}
+
+.icon-box-body
+{
+    position:relative;
+}
+
+.icon-box-body .close-par
+{
+    position:absolute;
+    top:0;
+    right:0;
+    background: #8bc53f;;
+    color:#fff;
+    padding:2px 8px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:background ease-in .2s;
+}
+
+.icon-box-body .close-par:hover
+{
+    background:#333
 }
 
 /* footer styles */
@@ -587,6 +629,18 @@ text[Attributes Style] {
 	{
 		height:auto;
 	}
+	
+	.icon-box .icon-box-body
+	{
+		display: none;
+		position:relative;
+		z-index:99;
+		background:#fff;
+		left:0;
+		right:0;
+		text-align:left;
+		padding:20px 15px 50px;
+	}
 
 	.footer-copyright
 	{
@@ -595,6 +649,12 @@ text[Attributes Style] {
 		bottom:0;
 		width:100%;
 		padding-top:5px;
+	}
+	
+	.block-row .block-col
+	{
+		margin-top:none !important;
+		padding-top:none !important;
 	}
 
 }
