@@ -35,6 +35,7 @@ jQuery(function($){
 	
 	$(".block-content span.close-par").click( function (e) {
 		$('.icon-box-body').fadeOut();
+        $('.icon').removeClass('active-block');
         var e = $('.block-row > div').slice(-3);
         $(e).css({
             'margin-top':'0',
@@ -430,19 +431,8 @@ function showBlock(num){
 		$(e).css('padding-top','none !important');
 	} else {
 		var blockheight = $('#cont-'+num).height();
-		var e = $('.block-row > div').slice(-3);
-		if (num < 4)
-		{
-			$(e).css('margin-top',blockheight);
-			$(e).css('padding-top','50px');
-		}
-		else
-		{
-			$(e).css('margin-top','none');
-			$(e).css('padding-top','none');
-			$('.site-wrapper').css({
-			'padding-bottom': blockheight});
-		}
+        $('.site-wrapper').css({
+        'padding-bottom': blockheight});
 };
     
     
