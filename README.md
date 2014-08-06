@@ -47,6 +47,7 @@ obvious with the `source` pointing to a file in the `content/` directory and the
 1. Tabbed layouts are rendered from YML formatted files. For example, `_data/what_tabs.yml` is the text for the "What is codeX" page. It is rendered using `include/tab_macro.html'
 1. The partner list is also maintained as a YML file in `_data/partners.html`
 1. For now, forms are simply Google App forms in an iframe. The styling is not great, but the ease of use is a big win.
+1. Blog content is added in the ``_posts`` directory. Add a file with a name formatted like ``2014-05-01-title.markdown`` or 2014-05-03-other-title.html. Format the file using Markdown or HTML as per the extension you have chosen. For now, only the previous 5 blog postings are displayed.
 
 ## Deployment
 There are several ways to deploy the site. GitHub allows us to host for free (using [GitHub pages](https://pages.github.com/)) and provides automatic updates on commit. For now, this has been disabled. One can also simply deploy the contents of the `_site` directory to a service of your choice.
