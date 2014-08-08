@@ -29,13 +29,16 @@
   content: |
     <h4>The Stables, 9a Wandel St, Dunkley Square, Cape Town 8001</h4>
     <div id="map-canvas"></div>
+    <p><h4>Banking Details</h4>
+    <p>Account name: Project CodeX<br>Bank: First National Bank<br>Account Number: 62469117214<br>Account Type: Business Cheque Account<br>Branch code: 250 655
 
 - header: When?
   id: '4'
   icon: calendar
   content: |
     <h4 style="text-align:center; font-size:18px; font-weight:bold">First term runs full-time from September 15 to December 12, 2014.</h4>
-    <h4 style="text-align:center; font-size:18px; font-weight:bold">FINALISTS WILL BE INVITED TO our "CODEX FOR A DAY" event ON August 16, 2014, <br>WHERE YOU'LL GET TO KNOW US AND WE'LL GET TO KNOW YOU.</h4>
+    <h4 style="text-align:center; font-size:18px">FINALISTS WILL BE INVITED TO our <b>"CODEX FOR A DAY"</b> event ON <b>August 16, 2014, </b><br>WHERE YOU'LL GET TO KNOW US AND WE'LL GET TO KNOW YOU.</h4>
+    <p><h4 style="text-align:center; font-size:18px"><b>2015</b><br>Our program kicks off again in January 2015. <br>codeX for a Day is on Sat 17 Jan and the term runs from 2 February to 24 April.</h4>
 
 - header: Why?
   id: '6'
