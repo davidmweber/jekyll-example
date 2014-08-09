@@ -9,18 +9,18 @@ title: Partners
 		{% assign counter = 0 %}
 		<ul class="team-list partners row">
 			{% for p in site.data.partners %}
-				<li class="team-item col-md-2">
+				<li class="team-item col-sm-2">
 					<figure class="alignnone">
 						<a href="{{p.url}}" target="_blank"><img src="/images/{{p.image}}"></a>
 					</figure>
-				</li>
+				</li> <!--
 				{% capture temp %}{{ counter | plus: 1 }}{% endcapture %}
 				{% assign counter = temp %}
-				{% if counter == '6' %}
+				{% if counter == '4' %}
   					</ul>
   					<ul class="team-list row">
   					{% assign counter = 0 %}
-				{% endif %}
+				{% endif %} -->
 			{% endfor %}
 		</ul>
 		<br><br>
