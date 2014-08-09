@@ -1,18 +1,24 @@
 - partner: Google
   image: Google logos.jpg
   url: https://developers.google.com/cloud/
+- partner: Clippn
+  image: Logo-Clippn.png
+  url: http://www.clippn.com
+- partner: GetSmarter
+  image: getsmarter_black.png
+  url: http://www.getsmarter.co.za/
+- partner: Mxit
+  image: Logo-Mxit.png
+  url: http://get.mxit.com/
 - partner: Ogilvy
   image: ogilvy.jpg
   url: http://www.ogilvy.co.za/
+- partner: Silicon Cape
+  image: Logo_SiliconCapeSupporter.png
+  url: http://www.siliconcape.com
 - partner: Growing Agile
   image: growing-agile.jpg
   url: http://growingagile.co.za/?utm_source=sponsorship&utm_medium=web&utm_campaign=codex
 - partner: fireID
   image: fireId.png
   url: http://www.fireid.com/
-- partner: We Speak Mobile
-  image: speak-mobile-logo.png
-  url: http://www.wespeakmobile.co.za/
-- partner: GetSmarter
-  image: getsmarter_black.png
-  url: http://www.getsmarter.co.za/
