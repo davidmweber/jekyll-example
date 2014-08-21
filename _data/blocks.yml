@@ -17,9 +17,9 @@
     Don’t worry about the terms now. The point is we arm you with the tools to succeed in an environment where you know very little, which is how the real world works.</p>
 
     <h4 class="block-hd">WHAT WE’RE NOT -  SCHOOL.</h4> 
-    <p>codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills. codeX guides you and gives you a safe space to experiment and grow.<br><br>
-    There are no formal classes and no prescribed languages, though you’ll learn several and plenty of hard coding skills. You’ll learn by working through big questions and breaking them down into solvable problems with your team and us.<br><br>
-    codeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and in business.<br><br>
+    <p>codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills, and commit to working for our partners for a time at the end (if they want to hire you). codeX guides you and gives you a safe space to experiment and grow.<br><br>
+    There are no formal classes, though you’ll learn industry standard programming languages like Java, PHP, Python, and Javascript. In order to build your projects, you'll be guided through online content with a developer mentor always available to help.<br><br>
+    codeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and business.<br><br>
     But we only invest in people who invest in themselves.<br><br>
     You need to show up every day on time, work well with your team members, and be focused on delivering what the client wants. There are no grades and no tests, but you’ll be evaluated continuously. If you don’t perform, you’ll be replaced.</p>
 
@@ -27,7 +27,12 @@
   id: '3'
   icon: map-marker
   content: |
-    <h4>The Stables, 9a Wandel St, Dunkley Square, Cape Town 8001</h4>
+    <h4>Cape Town Garage</h4>
+    <p><br>Woodstock Exchange 
+    <br>Block A / 4th Floor 
+    <br>66 Albert Road / Woodstock 
+    <br>7925 / Cape Town
+    <br>South Africa </p>
     <div id="map-canvas"></div>
 
 - header: When?
