@@ -2,12 +2,14 @@
   title: About
 - source: curriculum
   title: Learn
-- source: partners
-  title: Partners
-- source: blog
-  title: Blog
 - source: apply
   title: Apply
-- source: vacancies
-  title: Vacancies
+- source: partners
+  title: Partners
+- source: support
+  title: Support
+- source: blog
+  title: Blog
+- source: press
+  title: Press
 
