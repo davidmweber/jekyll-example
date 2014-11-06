@@ -687,3 +687,20 @@ text[Attributes Style] {
 @media only screen and (max-width : 320px) {
 
 }
+
+.top-image{
+	float: right;
+}
+
+
+.body-image {
+	float: left;
+	padding: 5px;
+}
+
+.body-images {
+	padding: 5px;
+	height: 500px;
+}
+
+
