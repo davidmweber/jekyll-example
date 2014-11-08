@@ -1,0 +1,14 @@
+---
+layout: content
+title: Press
+---
+<section class="page-contents">
+    <!-- Partner logos and links -->
+    <div class="container">
+        {% for p in site.categories['press'] limit: 5 %}
+            <h1><a href="{{ p.url }}">{{ p.title }}</a></h1>
+            {{ p.excerpt | strip_html }}<br>
+            <a href="{{ p.url }}">Read more......</a><br><br>
+        {% endfor %}
+    </div>
+</section>
