@@ -213,7 +213,7 @@ body.home
 	width:420px;
 	max-width:100%;
 	text-shadow:0 0 6px rgba(0,0,0,.6);
-	background-color: rgba(0,0,0, .5);;
+	background-color: rgba(0,0,0, .5);
 	border-radius: 5%;
 	padding: 15px;
 }
@@ -674,7 +674,7 @@ text[Attributes Style] {
 		position:relative;
 		margin-top:250px;
 		color:#fff;
-		background-color: black;
+		background-color: background-color: rgba(0,0,0, .5);
 		width:100%;
 		text-shadow:0 0 6px rgba(0,0,0,.6);
 		display:block;
