@@ -62,5 +62,19 @@ jekyll build
 gsutil rsync -p -r -c _site/ gs://www.projectcodex.co
 ```
 
+## Adding a press release or blog story
+
+Creating a blog story is pretty simple. First, create your story a file with a name like `_posts/2014-11-08-My-super-title.html`. Note that this fule must be created in the `_posts` directory. The first few lines of the post need to have the following text:
+
+```
+---
+layout: post
+categories:
+  - press
+---
+```
+
+The categories entry is required and multiple categories are allowed. At the moment, we support `blog` and `press` categories are supported. The remainder of the entry can then be formatted using HTML.
+
 
 
