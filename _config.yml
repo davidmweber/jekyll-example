@@ -3,4 +3,4 @@ description: Growing agile developers in Africa
 markdown: redcarpet
 highlighter: pygments
 exclude: [README.md]
-permalink: /:categories/:title
+permalink: /:title

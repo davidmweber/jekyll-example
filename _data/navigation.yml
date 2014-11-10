@@ -6,10 +6,10 @@
   title: Apply
 - source: partners
   title: Partners
-- source: support
-  title: Support
+#- source: support
+#  title: Support
 - source: blog
   title: Blog
-- source: press
-  title: Press
+#- source: press
+#  title: Press
 
