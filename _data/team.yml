@@ -64,7 +64,7 @@
 
 
 - name: André Vermeulen
-  position: 
+  position: Senior Developer
   image: andre.png
   email: andre@projectcodex.co
   linkedin: https://www.linkedin.com/profile/view?id=4831784
@@ -75,4 +75,35 @@
     from different programming languages. He is the organizer of the Nodebots Cape Town and passionate 
     about growing young bright African software developers. When not running after his young sons 
     you might find him crashing a RC Helicopter, fly fishing in the mountains or training for a marathon.
+
+- name: Yossi Hasson
+  position:
+  image: Yossipic.jpg
+  email: yossih@synaq.com
+  linkedin:
+  twitter:
+  bio: |
+    Yossi started his first company at age 17 and has had the entrepreneurial bug ever since.  
+    His company SYNAQ is the largest provider of Cloud Email Services in Sub-Saharan Africa, 
+    servicing over 450,000 users, was recently acquired by Dimension Data and listed in the 
+    Top 20 Tech Startups in Africa by Forbes Magazine. He is passionate about giving back to 
+    the startup community as a mentor and lecturer, serves as President of Entrepreneurs 
+    Organisation South Africa, and was a 2014 Mandela Washington Fellow in the US 
+    Government’s Young African Leadership Initiative. 
+
+- name: Justinus Adriaanse
+  position:
+  image: justinuspic.jpg
+  email: justinus197@gmail.com
+  linkedin:
+  twitter:
+  bio: |
+    Justinus loves tech, skiing and most importantly, the Blue Bulls. Born and bred in Pretoria, 
+    he abandoned traditional education for the rollercoaster of startup life during the first 
+    dot-com boom.  As CEO of Private Property from 2005, he grew the company to the most 
+    visited property site in Africa. After a successful exit, he decided to learn to code. He 
+    went to a code bootcamp in the USA, and now works as a Ruby on Rails developer. He loves 
+    helping others to discover the wonderful feeling of creating magic with lines of code!
+
+
 
