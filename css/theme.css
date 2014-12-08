@@ -64,7 +64,7 @@ body {
   background-color: #fff;
   color: #6d6d6d;
   font-family: 'Muli', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   margin: 0;
 }
@@ -98,7 +98,8 @@ body.boxed .site-wrapper {
 font-family: 'Muli', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Goudy Bookletter 1911', serif;
-*//*
+*/
+/*
 // #Header
 // --------------------------------------------------
 */
@@ -266,7 +267,6 @@ body.sticky-header .header .nav-main {
   margin: 0;
   padding: 18px 0;
   /* Modified for codeX site Logo */
-
   -webkit-transition: 0.2s;
   transition: 0.2s;
   float: left;
@@ -400,7 +400,6 @@ body.sticky-header .header .nav-main {
   position: relative;
   overflow: hidden;
   /* Submenu */
-
 }
 .flexnav li a {
   position: relative;
@@ -455,7 +454,6 @@ body.sticky-header .header .nav-main {
   text-align: center;
   background: rgba(255, 255, 255, 0.07);
   /* Touch Button Active */
-
 }
 .touch-button:hover {
   cursor: pointer;
@@ -508,7 +506,6 @@ body.sticky-header .header .nav-main {
     -webkit-transition: background 0.2s ease-in-out;
     transition: background 0.2s ease-in-out;
     /* Submenu */
-  
   }
   .flexnav > li + li {
     margin-left: 9px;
@@ -581,7 +578,6 @@ body.sticky-header .header .nav-main {
     width: 100%;
     border: none !important;
     /* Submenu 2nd Level */
-  
   }
   .flexnav > li ul li.item-with-ul > a:after {
     display: block;
@@ -762,12 +758,10 @@ body.sticky-header .header .nav-main {
 }
 header.menu-colored {
   /* Navigation styles - For Desktop */
-
 }
 @media all and (min-width: 992px) {
   header.menu-colored .flexnav > li {
     /* Submenu */
-  
   }
   header.menu-colored .flexnav > li > a:before {
     display: none;
@@ -814,7 +808,6 @@ header.menu-colored {
 /* Header v6 */
 header.menu-pills {
   /* Navigation styles - For Desktop */
-
 }
 @media all and (min-width: 992px) {
   header.menu-pills .flexnav {
@@ -826,7 +819,6 @@ header.menu-pills {
     -webkit-transition: 0.2s;
     transition: 0.2s;
     /* Submenu */
-  
   }
   header.menu-pills .flexnav > li > a {
     line-height: 44px;
@@ -1537,17 +1529,11 @@ header.header-fixed {
   position: relative;
   text-align: center;
   /* Page Title */
-
   /* Breadcrumbs */
-
   /* Search Form */
-
   /* Large */
-
   /* Background Image */
-
   /* Slideshow */
-
 }
 @media (min-width: 992px) {
   .page-heading {
@@ -2717,7 +2703,6 @@ h2 + .featured-section {
   padding-left: 0;
   list-style: none;
   /* Nested Comments */
-
 }
 .commentlist li .comment-wrapper {
   background: #f7f7f7;
@@ -3175,11 +3160,8 @@ h2 + .featured-section {
 .widget__footer {
   margin-bottom: 50px;
   /* Widget Title */
-
   /* Thumbnail */
-
   /* Base Widgets */
-
 }
 .widget__footer .widget-title {
   font-size: 14px;
@@ -3558,7 +3540,6 @@ table.cart-total > tbody > tr > td .amount {
   padding-left: 0;
   list-style: none;
   /* Forum Layout (ie columns width) */
-
 }
 .bbp-forums ul {
   padding-left: 0;
