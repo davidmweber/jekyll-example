@@ -1,10 +1,10 @@
 - partner: Brothers for All 
   image: partners/brothersforall.png
-  url: <http://www.brothersforall.org/>
+  url: http://www.brothersforall.org/
 
 - partner: Cape Town Public Library 
   image: partners/capetowncity.png
-  url: <https://www.capetown.gov.za/en/Library/Pages/CentralLibrary.aspx>
+  url: <https://www.capetown.gov.za/en/Library/Pages/CentralLibrary.aspx
 
 - partner: Clippn
   image: Logo-Clippn.png
@@ -36,15 +36,15 @@
 
 - partner: Khayelitsha Public Library 
   image: partners/capetowncity.png
-  url: <https://www.capetown.gov.za/en/Library/Pages/HarareLibrary.aspx>
+  url: https://www.capetown.gov.za/en/Library/Pages/HarareLibrary.aspx
 
 - partner: Kuyasa 
   image: partners/Kuyasa.png
-  url: <http://kuyasa-empowerment.org/>
+  url: http://kuyasa-empowerment.org/
 
 - partner: mLab 
   image: partners/mlab.png
-  url: <http://www.mlab.co.za/>
+  url: http://www.mlab.co.za/
 
 - partner: Mxit
   image: Logo-Mxit.png
@@ -60,17 +60,16 @@
 
 - partner: Silulo Ulutho 
   image: partners/siluloulutho.png
-  url: <https://www.facebook.com/silulo>
+  url: https://www.facebook.com/silulo
 
 - partner: SmartCape 
   image: partners/smartcape.png
-  url: <http://www.smartcape.org.za/>
+  url: http://www.smartcape.org.za/
 
 - partner: Stellenbosch Digital 
   image: partners/stellenboschdigital.png
-  url: <http://www.stellenboschdigital.co.za/>
+  url: http://www.stellenboschdigital.co.za/
 
 - partner: University of Western Cape CoLab 
   image: partners/UWCCoLab.png
-  url: <http://2014.colabwc.co.za/>
-
+  url: http://2014.colabwc.co.za/
