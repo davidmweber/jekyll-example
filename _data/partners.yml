@@ -1,24 +1,76 @@
-- partner: Google
-  image: Google logos.jpg
-  url: https://developers.google.com/cloud/
+- partner: Brothers for All 
+  image: partners/brothersforall.png
+  url: <http://www.brothersforall.org/>
+
+- partner: Cape Town Public Library 
+  image: partners/capetowncity.png
+  url: <https://www.capetown.gov.za/en/Library/Pages/CentralLibrary.aspx>
+
 - partner: Clippn
   image: Logo-Clippn.png
   url: http://www.clippn.com
-- partner: GetSmarter
-  image: getsmarter_black.png
-  url: http://www.getsmarter.co.za/
-- partner: Mxit
-  image: Logo-Mxit.png
-  url: http://get.mxit.com/
-- partner: Ogilvy
-  image: ogilvy.jpg
-  url: http://www.ogilvy.co.za/
-- partner: Silicon Cape
-  image: Logo_SiliconCapeSupporter.png
-  url: http://www.siliconcape.com
-- partner: Growing Agile
-  image: growing-agile.jpg
-  url: http://growingagile.co.za/?utm_source=sponsorship&utm_medium=web&utm_campaign=codex
+
+- partner: Code4CT 
+  image: partners/code4ct.png
+  url: <http://code4ct.com/>
+
 - partner: fireID
   image: fireId.png
   url: http://www.fireid.com/
+
+- partner: GetSmarter
+  image: getsmarter_black.png
+  url: http://www.getsmarter.co.za/
+
+- partner: Google
+  image: Google logos.jpg
+  url: https://developers.google.com/cloud/
+
+- partner: Growing Agile
+  image: growing-agile.jpg
+  url: http://growingagile.co.za/?utm_source=sponsorship&utm_medium=web&utm_campaign=codex
+
+- partner: InnovateSA 
+  image: partners/innovatesa.png
+  url: <http://innovatesa.org/>
+
+- partner: Khayelitsha Public Library 
+  image: partners/capetowncity.png
+  url: <https://www.capetown.gov.za/en/Library/Pages/HarareLibrary.aspx>
+
+- partner: Kuyasa 
+  image: partners/Kuyasa.png
+  url: <http://kuyasa-empowerment.org/>
+
+- partner: mLab 
+  image: partners/mlab.png
+  url: <http://www.mlab.co.za/>
+
+- partner: Mxit
+  image: Logo-Mxit.png
+  url: http://get.mxit.com/
+
+- partner: Ogilvy
+  image: ogilvy.jpg
+  url: http://www.ogilvy.co.za/
+
+- partner: Silicon Cape
+  image: Logo_SiliconCapeSupporter.png
+  url: http://www.siliconcape.com
+
+- partner: Silulo Ulutho 
+  image: partners/siluloulutho.png
+  url: <https://www.facebook.com/silulo>
+
+- partner: SmartCape 
+  image: partners/smartcape.png
+  url: <http://www.smartcape.org.za/>
+
+- partner: Stellenbosch Digital 
+  image: partners/stellenboschdigital.png
+  url: <http://www.stellenboschdigital.co.za/>
+
+- partner: University of Western Cape CoLab 
+  image: partners/UWCCoLab.png
+  url: <http://2014.colabwc.co.za/>
+

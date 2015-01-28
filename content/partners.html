@@ -6,23 +6,18 @@ title: Partners
 <section class="page-contents">
 	<!-- Partner logos and links -->
 	<div class="container">
-		{% assign counter = 0 %}
-		<ul class="team-list partners row">
+		<div class="row">
 			{% for p in site.data.partners %}
-				<li class="team-item col-sm-2">
-					<figure class="alignnone">
-						<a href="{{p.url}}" target="_blank"><img src="/images/{{p.image}}"></a>
-					</figure>
-				</li> <!--
-				{% capture temp %}{{ counter | plus: 1 }}{% endcapture %}
-				{% assign counter = temp %}
-				{% if counter == '4' %}
-  					</ul>
-  					<ul class="team-list row">
-  					{% assign counter = 0 %}
-				{% endif %} -->
-			{% endfor %}
-		</ul>
+	   		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+	   			<div class="thumbnail">
+			      	<a href="{{p.url}}">
+    	    			<img align="middle" src="/images/{{p.image}}" 
+        	 			alt="p.partner">
+      				</a>
+      			</div>
+   			</div>
+   			{% endfor %}
+   		</div>
 		<br><br>
 		<div class="row">
 			<div class="col-md-12">
@@ -32,13 +27,5 @@ title: Partners
 				{% endfor %}
 			</div>
 		</div>
-		<!-- Don't need 
-		<div class="row">
-			{% for i in site.data.partner_images %}
-					<div class="col-sm-4 image-blocks">
-						<img src="/images/{{i.image}}" alt="">
-					</div>
-			{% endfor %}
-		</div> -->
 	</div>
 </section>
