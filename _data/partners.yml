@@ -4,7 +4,7 @@
 
 - partner: Cape Town Public Library 
   image: partners/capetowncity.png
-  url: <https://www.capetown.gov.za/en/Library/Pages/CentralLibrary.aspx
+  url: https://www.capetown.gov.za/en/Library/Pages/CentralLibrary.aspx
 
 - partner: Clippn
   image: Logo-Clippn.png
@@ -12,7 +12,7 @@
 
 - partner: Code4CT 
   image: partners/code4ct.png
-  url: <http://code4ct.com/>
+  url: http://code4ct.com/
 
 - partner: fireID
   image: fireId.png
@@ -36,7 +36,7 @@
 
 - partner: InnovateSA 
   image: partners/innovatesa.png
-  url: <http://innovatesa.org/>
+  url: http://innovatesa.org/
 
 - partner: Khayelitsha Public Library 
   image: partners/capetowncity.png
