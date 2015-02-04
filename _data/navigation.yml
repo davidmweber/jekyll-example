@@ -12,6 +12,6 @@
   title: Blog
 - source: vacancies
   title: Vacancies
-#- source: press
-#  title: Press
+- source: press
+  title: Press
 
