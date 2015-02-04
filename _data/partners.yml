@@ -1,3 +1,7 @@
+- partner: Allan Gray
+  image: partners/AllanGray.png
+  url: http://www.allangray.co.za/
+
 - partner: Brothers for All 
   image: partners/brothersforall.png
   url: http://www.brothersforall.org/
@@ -5,6 +9,10 @@
 - partner: Cape Town Public Library 
   image: partners/capetowncity.png
   url: https://www.capetown.gov.za/en/Library/Pages/CentralLibrary.aspx
+
+- partner: Click foundation
+  image: partners/Click.jpg
+  url: http://clickfoundation.co.za/
 
 - partner: Clippn
   image: Logo-Clippn.png
