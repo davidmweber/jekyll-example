@@ -35,7 +35,7 @@
   url: https://developers.google.com/cloud/
 
 - partner: Gloo
-  image: gloo.gif
+  image: partners/gloo.gif
   url: http://www.gloo.co.za
 
 - partner: Growing Agile
@@ -45,6 +45,10 @@
 - partner: InnovateSA 
   image: partners/innovatesa.png
   url: http://innovatesa.org/
+
+- partner: Intel
+  image: partners/intellogo.png
+  url: http://www.intel.co.za/
 
 - partner: Khayelitsha Public Library 
   image: partners/capetowncity.png
@@ -81,6 +85,10 @@
 - partner: Stellenbosch Digital 
   image: partners/stellenboschdigital.png
   url: http://www.stellenboschdigital.co.za/
+
+- partner: Tau Data 
+  image: partners/taudatalogo.png
+  url: http://www.taudata.co.za/
 
 - partner: University of Western Cape CoLab 
   image: partners/UWCCoLab.png
